@@ -37,8 +37,9 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="自宅ホテル化計画 トップ">
-          <strong>自宅ホテル化計画</strong>
+        <a className="brand" href="#top" aria-label="CHECK-IN HOME(自宅ホテル化計画) トップ">
+          <strong>CHECK-IN HOME</strong>
+          <span>自宅ホテル化計画</span>
         </a>
         <nav aria-label="メインナビゲーション">
           <a href="#concept">コンセプト</a>
@@ -191,15 +192,15 @@ export default function Home() {
           <p className="eyebrow">BEGIN WITH A CONVERSATION</p>
           <h2>今夜から、帰る場所を<br />もっと好きになるために。</h2>
           <p>住まいのリノベーションに関する初回相談とお見積りは無料です。<br />まずは住まいの写真と、叶えたい過ごし方をお聞かせください。</p>
-          <a className="button button-dark" href="mailto:info@idea-d.jp?subject=自宅ホテル化計画の無料相談">無料相談を予約する <span>↗</span></a>
+          <a className="button button-dark" href="mailto:info@idea-d.jp?subject=CHECK-IN HOME(自宅ホテル化計画)の無料相談">無料相談を予約する <span>↗</span></a>
           <small>無理な営業はいたしません。内容がまだ具体的でなくても、お気軽にどうぞ。</small>
         </div>
       </section>
 
       <footer>
-        <div className="brand footer-brand"><strong>自宅ホテル化計画</strong></div>
+        <div className="brand footer-brand"><strong>CHECK-IN HOME</strong><span>自宅ホテル化計画</span></div>
         <p>住まいを、チェックインするたびに感動する部屋に。</p>
-        <p className="copyright">© 2026 自宅ホテル化計画</p>
+        <p className="copyright">© 2026 CHECK-IN HOME</p>
       </footer>
     </main>
   );
