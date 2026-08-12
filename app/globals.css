@@ -54,8 +54,9 @@ nav { display: flex; align-items: center; gap: 30px; font-size: 12px; }
 .statement { display: grid; grid-template-columns: 1.12fr .88fr; min-height: 720px; background: var(--charcoal); color: #f4f0e8; }
 .statement-image { min-height: 680px; background: linear-gradient(rgba(37,30,27,.04),rgba(37,30,27,.12)), url('/images/bedroom-japanese-modern.png') 48% center/cover no-repeat; }
 .statement-copy { padding: 110px 7vw; display: flex; flex-direction: column; justify-content: center; }
-.statement h2 { font-size: clamp(40px, 4vw, 62px); line-height: 1.45; margin: 0 0 32px; }
+.statement h2 { font-size: clamp(34px, 3.4vw, 52px); line-height: 1.45; margin: 0 0 32px; }
 .statement-copy > p:not(.eyebrow) { color: #d7cec2; font-size: 14px; line-height: 2.1; max-width: 490px; }
+.statement-copy p.statement-tagline { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 21px; font-weight: 500; color: #f4f0e8; letter-spacing: .02em; margin: -8px 0 28px; }
 .formula { margin-top: 52px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,.22); display: flex; align-items: center; gap: 30px; }
 .formula div { display: flex; flex-direction: column; gap: 5px; }
 .formula small { font-family: Georgia, serif; font-size: 9px; letter-spacing: .2em; color: #b9aa9e; }

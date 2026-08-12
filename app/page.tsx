@@ -79,7 +79,8 @@ export default function Home() {
         <div className="statement-image" role="img" aria-label="白いリネンと間接照明のホテルベッド" />
         <div className="statement-copy">
           <p className="eyebrow">ONE VISION, FROM DESIGN TO BUILD</p>
-          <h2>その家は、<br />まだ“ホテル”になれる。</h2>
+          <h2>ホテル暮らしを、<br />あきらめない。</h2>
+          <p className="statement-tagline">チェックアウトのない毎日を。</p>
           <p>プランを描く人と、現場で形にする人。その間にあるズレをなくし、内装デザインから工事まで一貫して請け負います。完成後のリネンやアメニティも、同じ世界観の中で選び抜きます。</p>
           <div className="formula" aria-label="デザイン、工事、継続サービスの流れ">
             <div><small>DESIGN</small><strong>内装設計</strong></div>
