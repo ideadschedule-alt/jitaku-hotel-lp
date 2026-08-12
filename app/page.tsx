@@ -11,11 +11,16 @@ const services = [
   },
   {
     number: "03",
+    title: "家具を、気分で着替える",
+    text: "施工後の空間に合わせ、提携サービスの家具からソファやテーブル、チェアなどを選定。気分や暮らしの変化に合わせて、入れ替えることもできます。",
+  },
+  {
+    number: "04",
     title: "ホテル仕様のリネンサービス",
     text: "完成後は、上質なシーツやピローケースを月1〜2回交換。使い終えたリネンは専用バッグで回収します。",
   },
   {
-    number: "04",
+    number: "05",
     title: "香りとアメニティのサブスク",
     text: "国内外のホテルで親しまれるルームフレグランスやアメニティから、空間に合うものを選んで定期的にお届けします。",
   },
@@ -51,7 +56,7 @@ export default function Home() {
           <h1><span>自宅に、</span><span>チェックイン。</span></h1>
           <div className="hero-description">
             <p><small>01 / RENOVATION</small><strong>リビングから寝室まで。</strong><br />内装デザインと工事を、ひとつのチームで。</p>
-            <p><small>02 / CONTINUING CARE</small><strong>完成後の心地よさまで。</strong><br />ホテルの香りとアメニティを、定期的にお届けします。</p>
+            <p><small>02 / CONTINUING CARE</small><strong>完成後の心地よさまで。</strong><br />家具、ホテルの香り、アメニティまで整えます。</p>
           </div>
           <a className="button button-light" href="#contact">無料相談を予約する <span>↗</span></a>
         </div>
@@ -90,7 +95,7 @@ export default function Home() {
         <div className="section-label"><span>02</span> WHAT WE DESIGN</div>
         <div className="section-heading">
           <h2>空間をつくることから、<br />体験を育てることまで。</h2>
-          <p>ご相談、デザイン、施工を一貫して担い、その先にアメニティのサブスクリプションをつなげます。</p>
+          <p>ご相談、デザイン、施工を一貫して担い、その先に家具、リネン、アメニティの継続サービスをつなげます。</p>
         </div>
         <div className="service-list">
           {services.map((item) => (
@@ -161,7 +166,7 @@ export default function Home() {
           <li><span>01</span><strong>無料相談</strong><p>図面がなくても大丈夫。お住まいの写真と、理想の過ごし方をお聞かせください。</p></li>
           <li><span>02</span><strong>内装デザイン</strong><p>素材、照明、収納、リネンまで、ひとつの世界観としてご提案します。</p></li>
           <li><span>03</span><strong>工事・お引渡し</strong><p>設計意図を共有したチームが施工し、細部の仕上がりまで確認します。</p></li>
-          <li><span>04</span><strong>サブスク開始</strong><p>完成後、リネンやアメニティを定期的にお届け。心地よさを更新します。</p></li>
+          <li><span>04</span><strong>完成後サービス</strong><p>空間に合う家具を選び、リネンやアメニティもお届け。心地よさを更新します。</p></li>
         </ol>
       </section>
 
