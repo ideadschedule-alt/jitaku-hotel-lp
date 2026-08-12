@@ -190,7 +190,7 @@ export default function Home() {
       <section className="contact" id="contact">
         <div className="contact-inner">
           <p className="eyebrow">BEGIN WITH A CONVERSATION</p>
-          <h2>今夜から、帰る場所を<br />もっと好きになるために。</h2>
+          <h2>憧れのホテル暮らしを<br />現実に。</h2>
           <p>住まいのリノベーションに関する初回相談とお見積りは無料です。<br />まずは住まいの写真と、叶えたい過ごし方をお聞かせください。</p>
           <a className="button button-dark" href="mailto:info@idea-d.jp?subject=CHECK-IN HOME(自宅ホテル化計画)の無料相談">無料相談を予約する <span>↗</span></a>
           <small>無理な営業はいたしません。内容がまだ具体的でなくても、お気軽にどうぞ。</small>
