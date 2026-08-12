@@ -95,7 +95,7 @@ export default function Home() {
       <section className="service section" id="service">
         <div className="section-label"><span>02</span> WHAT WE DESIGN</div>
         <div className="section-heading">
-          <h2>空間をつくることから、<br />体験を育てることまで。</h2>
+          <h2>空間を創造し、<br />体験を育む。</h2>
           <p>ご相談、デザイン、施工を一貫して担い、その先に家具、リネン、アメニティの継続サービスをつなげます。</p>
         </div>
         <div className="service-list">
