@@ -148,8 +148,8 @@ export default function Home() {
           </div>
           <div className="price-card">
             <p>月額</p>
-            <div className="price"><strong>12,000</strong><span>円〜</span></div>
-            <p className="price-range">25,000円／月まで　・　月1〜2回</p>
+            <div className="price"><strong>¥XX,XXX</strong><span>〜</span></div>
+            <p className="price-range">XX,XXX円／月まで　・　月1〜2回</p>
             <ul>
               <li>ホテル仕様リネンの交換・回収</li>
               <li>バスタオル・フェイスタオルの定期交換</li>
