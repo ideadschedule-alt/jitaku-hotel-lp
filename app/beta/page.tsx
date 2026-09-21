@@ -82,10 +82,10 @@ export default function BetaPage() {
           <h2>なぜ、その感動は<br />薄れていくのか。</h2>
           <div className={styles.bodyCopy}>
             <p className={styles.fixedFourLines}>
-              <span>リノベーションした瞬間は、たしかに感動した。</span>
-              <span>でも半年もすると、いつもの部屋に戻っていく。</span>
-              <span>これまでの内装工事は、完成で関係が終わる「フロー型」。</span>
-              <span>空間を保ち、体験を更新する仕組みがなかったのです。</span>
+              <span>住まいが美しく整った瞬間、</span>
+              <span>心がほどけるような、新しい感動が生まれます。</span>
+              <span>けれど、時を重ねるほど、その新鮮さは少しずつ日常へ。</span>
+              <span>完成時の感動を、暮らしの中で育て続ける仕組みが必要です。</span>
             </p>
             <p className={styles.pullQuote}>「感動が続かない」のは、<br />あなたのせいではありません。</p>
           </div>
