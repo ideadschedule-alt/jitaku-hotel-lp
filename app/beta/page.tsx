@@ -54,6 +54,7 @@ export default function BetaPage() {
         <div className={styles.feelingIntro}>
           <div>
             <p className={styles.feelingKicker}>THE FEELING OF A HOTEL</p>
+            <p className={styles.feelingQuestion}>なぜ、ホテルはワクワクするのか。</p>
             <h2><span>心が動くのには、</span><span>理由があります。</span></h2>
           </div>
           <div className={styles.feelingNarrative}>
