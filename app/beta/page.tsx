@@ -106,7 +106,7 @@ export default function BetaPage() {
         <div className={styles.archImage} role="img" aria-label="落ち着いた木質空間と造作収納を備えたリビング" />
         <div className={styles.archContent}>
           <div className={styles.sectionNumber}>02 / THE ANSWER</div>
-          <p className={styles.overlineDark}>CHECK-IN HOME</p>
+          <p className={styles.overlineDark}>ふたつの課題に、ひとつの答えを。</p>
           <h2>工事だけでは、<br />終わりません。</h2>
           <p className={styles.answerCaption}>CHECK-IN HOMEは、空間の完成をゴールにせず、そこで生まれる体験を続けるためのサービスまでサポートします。</p>
           <p className={styles.archLead}>空間をつくるハードと、体験を保ち続けるソフト。ふたつを、最初からひとつの商品として設計します。</p>
