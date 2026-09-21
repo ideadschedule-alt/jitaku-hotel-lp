@@ -40,7 +40,7 @@ export default function BetaPage() {
         <div className={styles.heroShade} />
         <div className={styles.heroContent}>
           <p className={styles.betaLabel}><span>BETA</span> FOUNDING MEMBERS</p>
-          <p className={styles.overline}>内装工事会社発、新しい住まいの商品</p>
+          <p className={styles.overline}>新しい住まいの商品</p>
           <h1><span>自宅に、</span><span>チェックイン。</span></h1>
           <p className={styles.heroLead}>施工と、暮らしの継続体験をひとつに。<br />空間をつくって終わらない、住まいの新しい選択肢です。</p>
           <div className={styles.heroActions}>
