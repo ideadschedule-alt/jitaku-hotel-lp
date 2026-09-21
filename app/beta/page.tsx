@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import styles from "./beta.module.css";
 
 export const metadata: Metadata = {
-  title: "CHECK-IN HOME β版｜その家は、まだホテルになれる。",
+  title: "CHECK-IN HOME β版｜自宅に、チェックイン。",
   description: "内装設計・施工と、完成後のリネンやアメニティ、ホームバー体験をひとつにした自宅ホテル化計画のβ版ページです。",
 };
 
@@ -41,7 +41,7 @@ export default function BetaPage() {
         <div className={styles.heroContent}>
           <p className={styles.betaLabel}><span>BETA</span> FOUNDING MEMBERS</p>
           <p className={styles.overline}>内装工事会社発、新しい住まいの商品</p>
-          <h1><span>その家は、</span><span>まだ“ホテル”になれる。</span></h1>
+          <h1><span>自宅に、</span><span>チェックイン。</span></h1>
           <p className={styles.heroLead}>施工と、暮らしの継続体験をひとつに。<br />空間をつくって終わらない、住まいの新しい選択肢です。</p>
           <div className={styles.heroActions}>
             <a className={styles.primaryButton} href="mailto:info@idea-d.jp?subject=自宅ホテル化計画β版の無料相談">無料相談を予約する <span>↗</span></a>
