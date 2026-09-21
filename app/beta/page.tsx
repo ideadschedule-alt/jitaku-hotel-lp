@@ -57,8 +57,12 @@ export default function BetaPage() {
             <h2><span>心が動くのには、</span><span>理由があります。</span></h2>
           </div>
           <div className={styles.feelingNarrative}>
-            <p>扉を開けた瞬間に感じる香り。やわらかく広がる光。視界から生活感が消え、リネンも家具も、きれいに整えられている。</p>
-            <p>その新鮮さは偶然ではありません。五感と気持ちが日常から切り替わるよう、空間と体験が丁寧に設計され、いつでも整えられているからです。</p>
+            <p>
+              <span>扉を開けた瞬間に感じる香り。やわらかく広がる光。</span>
+              <span>生活感が消え、リネンも家具も美しく整えられている。</span>
+              <span>その新鮮さは、五感と気持ちが日常から切り替わるよう、</span>
+              <span>空間と体験が丁寧に設計されているから生まれます。</span>
+            </p>
           </div>
         </div>
         <div className={styles.senseGrid} aria-label="ホテルで日常から気持ちが切り替わる六つの理由">
