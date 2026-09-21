@@ -97,7 +97,7 @@ export default function BetaPage() {
           </div>
           <div className={styles.feelingAnswer}>
             <p>ワクワクは、五感と気持ちが切り替わるように、空間と体験が整えられているから生まれます。感動が薄れるのは、その状態を保ち、更新し続ける仕組みがないからです。</p>
-            <strong>感動が生まれる理由を設計し、<br />続く仕組みまでつくる。</strong>
+            <strong>感動が生まれる理由をデザインし、<br />続く仕組みまでつくる。</strong>
           </div>
         </div>
       </section>
