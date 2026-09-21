@@ -144,10 +144,24 @@ export default function BetaPage() {
               <h2><span>完成後も、</span><span>感動は色褪せない。</span></h2>
             </div>
             <div className={styles.serviceBody}>
-              <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。</p>
-              <ul className={styles.serviceList}>
-                <li>リネン・タオル</li><li>香り・アメニティ</li><li>家具レンタル</li><li>清掃・家事サポート</li>
-              </ul>
+              <p>完成後は、寝室とリビングを整えるプラン、ホームバーを支えるプラン、清掃や調理まで担うケアプランを、暮らしに合わせて組み合わせます。</p>
+              <div className={styles.carePlanSummary}>
+                <article>
+                  <small>BEDROOM &amp; LIVING</small>
+                  <h3>ホテル・ステイ・エッセンシャル</h3>
+                  <p>リネン・タオル、アメニティ、香りを定期的に整える。</p>
+                </article>
+                <article>
+                  <small>HOME BAR</small>
+                  <h3>ホームバー・マスター・サプライ</h3>
+                  <p>サーバーの保守から、飲料やバー用品の補充まで。</p>
+                </article>
+                <article>
+                  <small>WEEKLY HOME CARE</small>
+                  <h3>ホテル・コンシェルジュ・ケア</h3>
+                  <p>清掃、家事、当日の夕食や作り置きまで支える。</p>
+                </article>
+              </div>
             </div>
           </div>
         </div>
