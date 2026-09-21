@@ -77,8 +77,8 @@
 .feelingNarrative { padding: 72px 0 8px; }
 .feelingNarrative p { margin: 0 0 24px; font-size: 16px; line-height: 2.15; }
 .senseGrid { max-width: 1220px; margin: 100px auto 0; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--beta-line); border-left: 1px solid var(--beta-line); }
-.senseGrid article { min-height: 440px; border-right: 1px solid var(--beta-line); border-bottom: 1px solid var(--beta-line); }
-.senseGrid article > img { width: 100%; height: 210px; display: block; object-fit: cover; filter: saturate(.72) contrast(.94); }
+.senseGrid article { min-height: 420px; border-right: 1px solid var(--beta-line); border-bottom: 1px solid var(--beta-line); }
+.senseGrid article > img { width: 100%; height: 190px; box-sizing: border-box; display: block; object-fit: contain; padding: 24px 28px 0; background: #f2ebe2; }
 .senseCopy { padding: 30px; }
 
 .senseGrid span { color: #936f5e; font-family: Georgia, serif; font-size: 10px; letter-spacing: .18em; }
@@ -250,7 +250,7 @@
   .feelingNarrative { margin-top: 42px; }
   .senseGrid { margin-top: 65px; grid-template-columns: 1fr; }
   .senseGrid article { min-height: 0; padding: 0; }
-  .senseGrid article > img { height: 220px; }
+  .senseGrid article > img { height: 190px; padding: 20px 22px 0; }
   .senseCopy { padding: 28px 24px; }
   .senseGrid h3 { margin-top: 28px; }
   .feelingConclusion { margin-top: 80px; padding-top: 55px; gap: 35px; }
