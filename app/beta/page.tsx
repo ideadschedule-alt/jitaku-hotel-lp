@@ -140,7 +140,7 @@ export default function BetaPage() {
         <div className={styles.serviceCopy}>
           <div className={styles.sectionNumber}>04 / CONTINUING CARE</div>
           <p className={styles.serviceOverline}>AFTERCARE &amp; MAINTENANCE</p>
-          <h2>完成後の体験を、<br />整え続ける。</h2>
+          <h2>完成後も、<br />色褪せない感動を。</h2>
           <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。</p>
           <ul className={styles.serviceList}>
             <li>リネン・タオル</li><li>香り・アメニティ</li><li>家具レンタル</li><li>清掃・家事サポート</li>
