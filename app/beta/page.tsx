@@ -135,7 +135,23 @@ export default function BetaPage() {
             <div className={styles.price}><small>月額目安</small><strong>¥18,000–38,000</strong></div>
           </article>
         </div>
-        <p className={styles.planNote}>※施工費は別途、空間の規模・仕様に応じた個別見積りです。β版の内容・頻度は、ご要望を伺いながら調整します。</p>
+        <article className={styles.conciergeCard}>
+          <div className={styles.conciergeIntro}>
+            <div className={styles.planTop}><span>OPTIONAL PLAN</span><small>WEEKLY HOME CARE</small></div>
+            <h3>ホテル・コンシェルジュ・<br />ケア</h3>
+          </div>
+          <div className={styles.conciergeBody}>
+            <p>週1回を目安に、提携パートナーが部屋と水回りを整えます。ご希望に応じて、ホテルのような当日の夕食や一週間分の作り置きまで。空間だけでなく、帰宅した瞬間の体験まで整える追加プランです。</p>
+            <ul>
+              <li>部屋の清掃・ベッドメイク</li>
+              <li>キッチン・浴室・洗面など水回りの清掃</li>
+              <li>当日の夕食の調理</li>
+              <li>一週間分の作り置き調理</li>
+            </ul>
+            <div className={styles.conciergeStatus}><small>提携パートナー対応</small><strong>内容・頻度を個別に設計</strong></div>
+          </div>
+        </article>
+        <p className={styles.planNote}>※施工費は別途、空間の規模・仕様に応じた個別見積りです。β版の内容・頻度は、ご要望を伺いながら調整します。家事・調理サービスは、提供地域および提携先の対応範囲により内容が異なります。</p>
       </section>
 
       <section className={styles.flow} id="flow">
