@@ -53,9 +53,8 @@ export default function BetaPage() {
       <section className={styles.feeling} id="feeling">
         <div className={styles.feelingIntro}>
           <div>
-            <p className={styles.feelingKicker}>THE FEELING OF A HOTEL</p>
-            <p className={styles.feelingQuestion}>なぜ、ホテルはワクワクするのか。</p>
-            <h2><span>心が動くのには、</span><span>理由があります。</span></h2>
+            <p className={styles.feelingKicker}>ISSUE 01 / THE SOURCE OF WONDER</p>
+            <h2><span>なぜ、ホテルは</span><span>ワクワクするのか。</span></h2>
           </div>
           <div className={styles.feelingNarrative}>
             <p>
@@ -78,9 +77,9 @@ export default function BetaPage() {
 
 
       <section className={styles.discover} id="discover">
-        <div className={styles.sectionNumber}>01 / DISCOVER</div>
+        <div className={styles.sectionNumber}>ISSUE 02 / WHY THE FEELING FADES</div>
         <div className={styles.discoverGrid}>
-          <h2>リノベーションの感動は、<br />なぜ薄れてしまうのか。</h2>
+          <h2>なぜ、その感動は<br />薄れていくのか。</h2>
           <div className={styles.bodyCopy}>
             <p>リノベーションした瞬間は、たしかに感動した。でも、住み始めて半年もすると、いつもの部屋に戻っていませんか。</p>
             <p>これまでの内装工事は、完成した瞬間に業者との関係が終わる「フロー型」が中心でした。美しい空間を維持し、体験を更新する仕組みは、最初から用意されていなかったのです。</p>
@@ -89,12 +88,12 @@ export default function BetaPage() {
         </div>
         <div className={styles.feelingConclusion}>
           <div>
-            <p className={styles.feelingKicker}>BRING THE FEELING HOME</p>
-            <h3>その感覚は、<br />自宅でもつくれる。</h3>
+            <p className={styles.feelingKicker}>THE ANSWER</p>
+            <h3>ふたつの課題は、<br />解決できる。</h3>
           </div>
           <div className={styles.feelingAnswer}>
-            <p>ホテルで心が動く理由をひとつずつ分解し、内装、照明、家具、香り、リネン、そして完成後のメンテナンスとして、自宅の暮らしに再構成します。</p>
-            <strong>ホテルで感動する理由を、<br />自宅に具現化する。</strong>
+            <p>ワクワクは、五感と気持ちが切り替わるように、空間と体験が整えられているから生まれます。感動が薄れるのは、その状態を保ち、更新し続ける仕組みがないからです。</p>
+            <strong>感動が生まれる理由を設計し、<br />続く仕組みまでつくる。</strong>
           </div>
         </div>
         <div className={styles.experienceMap}>
