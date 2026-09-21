@@ -118,7 +118,7 @@ export default function BetaPage() {
           <div className={styles.renovationGrid}>
             <div className={styles.renovationHeading}>
               <p className={styles.serviceOverline}>INTERIOR RENOVATION</p>
-              <h2>心を動かす理由を、<br />デザインする。</h2>
+              <h2><span>心を動かす理由を、</span><span>デザインする。</span></h2>
             </div>
             <div className={styles.renovationBody}>
               <p>窓や自然光を変えられない改装でも、光・素材・手触り・動線のシークエンスを丁寧に整え、五感に残る情景をつくります。思い出のシグネチャーホテルを手がかりに、心を動かす世界観を設計し、施工まで一貫して形にします。</p>
