@@ -54,11 +54,11 @@ export default function BetaPage() {
         <div className={styles.feelingIntro}>
           <div>
             <p className={styles.feelingKicker}>THE FEELING OF A HOTEL</p>
-            <h2>ホテルで心が動くのは、<br />豪華だからではありません。</h2>
+            <h2>ホテルで心が動くのには、<br />理由があります。</h2>
           </div>
           <div className={styles.feelingNarrative}>
             <p>扉を開けた瞬間に感じる香り。やわらかく広がる光。視界から生活感が消え、リネンも家具も、きれいに整えられている。</p>
-            <p>いつもの日常から、気持ちが切り替わる。ホテルで感じる新鮮さの正体は、空間と体験が、自分のために整えられていることです。</p>
+            <p>その新鮮さは偶然ではありません。五感と気持ちが日常から切り替わるよう、空間と体験が丁寧に設計され、いつでも整えられているからです。</p>
           </div>
         </div>
         <div className={styles.senseGrid} aria-label="ホテルで日常から気持ちが切り替わる六つの理由">
@@ -72,11 +72,11 @@ export default function BetaPage() {
         <div className={styles.feelingConclusion}>
           <div>
             <p className={styles.feelingKicker}>BRING THE FEELING HOME</p>
-            <h3>その感覚を、<br />旅先だけのものにしない。</h3>
+            <h3>その感覚は、<br />自宅でもつくれる。</h3>
           </div>
           <div className={styles.feelingAnswer}>
-            <p>私たちは、ホテルの見た目を真似るのではなく、ホテルで心が動く理由から自宅を設計します。</p>
-            <strong>ホテルで感動する理由を、<br />自宅に再現する。</strong>
+            <p>ホテルで心が動く理由をひとつずつ分解し、内装、照明、家具、香り、リネン、そして完成後のメンテナンスとして、自宅の暮らしに再構成します。</p>
+            <strong>ホテルで感動する理由を、<br />自宅に具現化する。</strong>
           </div>
         </div>
         <div className={styles.experienceMap}>
