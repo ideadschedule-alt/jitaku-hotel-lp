@@ -62,12 +62,12 @@ export default function BetaPage() {
           </div>
         </div>
         <div className={styles.senseGrid} aria-label="ホテルで日常から気持ちが切り替わる六つの理由">
-          <article><span>01 / SIGHT</span><h3>静かな視界</h3><p>生活感や余計なものが目に入らず、心まで静かになる。</p></article>
-          <article><span>02 / SCENT</span><h3>記憶に残る香り</h3><p>扉を開けた瞬間、いつもとは違う空気に切り替わる。</p></article>
-          <article><span>03 / LIGHT</span><h3>やわらかな光</h3><p>直接照らすのではなく、光と影が落ち着きをつくる。</p></article>
-          <article><span>04 / TOUCH</span><h3>肌で感じる心地よさ</h3><p>清潔なリネンやタオルの感触が、休息のスイッチになる。</p></article>
-          <article><span>05 / ORDER</span><h3>整えられたしつらえ</h3><p>家具や小物の置き方まで、過ごしやすさが設計されている。</p></article>
-          <article><span>06 / CARE</span><h3>手入れされた安心感</h3><p>いつ訪れても整っていることが、特別な時間を支えている。</p></article>
+          <article><img src="/images/scene-sight.png" alt="生活感を抑え、静かな視界が広がるリビング" /><div className={styles.senseCopy}><span>01 / SIGHT</span><h3>静かな視界</h3><p>生活感や余計なものが目に入らず、心まで静かになる。</p></div></article>
+          <article><img src="/images/scene-scent.png" alt="木と石のコンソールに置かれたルームフレグランス" /><div className={styles.senseCopy}><span>02 / SCENT</span><h3>記憶に残る香り</h3><p>扉を開けた瞬間、いつもとは違う空気に切り替わる。</p></div></article>
+          <article><img src="/images/scene-light.png" alt="間接照明のやわらかな光と影が広がる室内" /><div className={styles.senseCopy}><span>03 / LIGHT</span><h3>やわらかな光</h3><p>直接照らすのではなく、光と影が落ち着きをつくる。</p></div></article>
+          <article><img src="/images/scene-touch.png" alt="清潔な白いリネンとタオルの心地よい質感" /><div className={styles.senseCopy}><span>04 / TOUCH</span><h3>肌で感じる心地よさ</h3><p>清潔なリネンやタオルの感触が、休息のスイッチになる。</p></div></article>
+          <article><img src="/images/scene-order.png" alt="家具と小物が丁寧に整えられたリビング" /><div className={styles.senseCopy}><span>05 / ORDER</span><h3>整えられたしつらえ</h3><p>家具や小物の置き方まで、過ごしやすさが設計されている。</p></div></article>
+          <article><img src="/images/scene-care.png" alt="ベッドと水回りまで手入れが行き届いた室内" /><div className={styles.senseCopy}><span>06 / CARE</span><h3>手入れされた安心感</h3><p>いつ訪れても整っていることが、特別な時間を支えている。</p></div></article>
         </div>
         <div className={styles.feelingConclusion}>
           <div>
