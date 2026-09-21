@@ -42,7 +42,7 @@ export default function BetaPage() {
           <p className={styles.betaLabel}><span>BETA</span> FOUNDING MEMBERS</p>
           <p className={styles.overline}>新しい住まいの商品</p>
           <h1><span>自宅に、</span><span>チェックイン。</span></h1>
-          <p className={styles.heroLead}>施工と、暮らしの継続体験をひとつに。<br />空間をつくって終わらない、住まいの新しい選択肢です。</p>
+          <p className={styles.heroLead}>リニューアルと、暮らしの継続体験をひとつに。<br />空間をつくって終わらない、住まいの新しい選択肢です。</p>
           <div className={styles.heroActions}>
             <a className={styles.primaryButton} href="mailto:info@idea-d.jp?subject=自宅ホテル化計画β版の無料相談">無料相談を予約する <span>↗</span></a>
             <a className={styles.textLink} href="#feeling">計画について知る <span>↓</span></a>
