@@ -74,6 +74,19 @@ export default function BetaPage() {
           <article><img src="/images/scene-order.png" alt="家具と小物が丁寧に整えられたリビング" /><div className={styles.senseCopy}><span>05 / ORDER</span><h3>整えられたしつらえ</h3><p>家具や小物の置き方まで、過ごしやすさが設計されている。</p></div></article>
           <article><img src="/images/scene-care.png" alt="ベッドと水回りまで手入れが行き届いた室内" /><div className={styles.senseCopy}><span>06 / CARE</span><h3>手入れされた安心感</h3><p>いつ訪れても整っていることが、特別な時間を支えている。</p></div></article>
         </div>
+      </section>
+
+
+      <section className={styles.discover} id="discover">
+        <div className={styles.sectionNumber}>01 / DISCOVER</div>
+        <div className={styles.discoverGrid}>
+          <h2>リノベーションの感動は、<br />なぜ薄れてしまうのか。</h2>
+          <div className={styles.bodyCopy}>
+            <p>リノベーションした瞬間は、たしかに感動した。でも、住み始めて半年もすると、いつもの部屋に戻っていませんか。</p>
+            <p>これまでの内装工事は、完成した瞬間に業者との関係が終わる「フロー型」が中心でした。美しい空間を維持し、体験を更新する仕組みは、最初から用意されていなかったのです。</p>
+            <p className={styles.pullQuote}>「感動が続かない」のは、<br />あなたのせいではありません。</p>
+          </div>
+        </div>
         <div className={styles.feelingConclusion}>
           <div>
             <p className={styles.feelingKicker}>BRING THE FEELING HOME</p>
@@ -90,19 +103,6 @@ export default function BetaPage() {
           <div><span>SCENT &amp; AMENITY</span><p>五感を日常から<br />切り替える</p></div>
           <div><span>MAINTENANCE</span><p>ホテルの空気感を<br />維持する</p></div>
           <div><span>FURNITURE RENTAL</span><p>ときどき新鮮さを<br />更新する</p></div>
-        </div>
-      </section>
-
-
-      <section className={styles.discover} id="discover">
-        <div className={styles.sectionNumber}>01 / DISCOVER</div>
-        <div className={styles.discoverGrid}>
-          <h2>リノベーションの感動は、<br />なぜ薄れてしまうのか。</h2>
-          <div className={styles.bodyCopy}>
-            <p>リノベーションした瞬間は、たしかに感動した。でも、住み始めて半年もすると、いつもの部屋に戻っていませんか。</p>
-            <p>これまでの内装工事は、完成した瞬間に業者との関係が終わる「フロー型」が中心でした。美しい空間を維持し、体験を更新する仕組みは、最初から用意されていなかったのです。</p>
-            <p className={styles.pullQuote}>「感動が続かない」のは、<br />あなたのせいではありません。</p>
-          </div>
         </div>
       </section>
 
