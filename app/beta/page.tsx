@@ -144,7 +144,7 @@ export default function BetaPage() {
               <h2><span>完成後も、</span><span>感動は色褪せない。</span></h2>
             </div>
             <div className={styles.serviceBody}>
-              <p>完成後は、寝室とリビングを整えるプラン、ホームバーを支えるプラン、清掃や調理まで担うケアプランを、暮らしに合わせて組み合わせます。</p>
+              <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。また、定期的に、提携パートナーが部屋と水回りを整えます。ご希望に応じて、ホテルのような当日の夕食や一週間分の作り置きまで色褪せない感動を提供いたします。</p>
               <div className={styles.carePlanSummary}>
                 <article>
                   <small>BEDROOM &amp; LIVING</small>
