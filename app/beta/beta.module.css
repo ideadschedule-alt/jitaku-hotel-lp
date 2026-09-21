@@ -79,8 +79,8 @@
 .archLead { margin: 0 0 42px; max-width: 560px; color: #cfc4b8; font-size: 14px; line-height: 2.1; }
 .maintenanceLine { margin: 0 0 42px; padding: 20px 0; border-top: 1px solid rgba(182,154,101,.7); border-bottom: 1px solid rgba(182,154,101,.7); color: #f3e9da; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(18px, 1.7vw, 24px); line-height: 1.75; letter-spacing: .035em; }
 .floors { border-top: 1px solid rgba(255,255,255,.2); }
-.floors article { display: grid; grid-template-columns: 70px 1fr; gap: 24px; padding: 24px 0; border-bottom: 1px solid rgba(255,255,255,.2); }
-.floors article > span { width: 48px; height: 48px; display: grid; place-items: center; border: 1px solid var(--beta-clay); color: #d38d7e; font-family: Georgia, serif; }
+.floors article { display: grid; grid-template-columns: 94px 1fr; gap: 24px; padding: 24px 0; border-bottom: 1px solid rgba(255,255,255,.2); }
+.floors article > span { width: 74px; height: 48px; display: grid; place-items: center; border: 1px solid var(--beta-clay); color: #d38d7e; font-size: 12px; letter-spacing: .08em; }
 .floors small { color: #9e9186; font-family: Georgia, serif; font-size: 8px; letter-spacing: .18em; }
 .floors h3 { margin: 6px 0 8px; font-size: 20px; }
 .floors p { margin: 0; color: #bfb4a9; font-size: 12px; line-height: 1.85; }
@@ -214,7 +214,7 @@
   .archImage { min-height: 390px; }
   .archContent { padding: 80px 25px; }
   .archContent h2 { font-size: 36px; }
-  .floors article { grid-template-columns: 52px 1fr; gap: 16px; }
+  .floors article { grid-template-columns: 82px 1fr; gap: 16px; }
   .dayStory { padding: 90px 25px 120px; grid-template-columns: 1fr; }
   .dayPrimary img { height: 460px; }
   .daySecondary { transform: none; }

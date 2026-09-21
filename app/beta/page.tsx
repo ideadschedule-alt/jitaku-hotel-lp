@@ -67,18 +67,18 @@ export default function BetaPage() {
         <div className={styles.archImage} role="img" aria-label="落ち着いた木質空間と造作収納を備えたリビング" />
         <div className={styles.archContent}>
           <div className={styles.sectionNumber}>02 / REFRAME</div>
-          <p className={styles.overlineDark}>THE HOME AS A TWO-STORY EXPERIENCE</p>
-          <h2>工事を「1階」で、<br />終わらせない。</h2>
+          <p className={styles.overlineDark}>FROM DESIGN TO CONTINUING CARE</p>
+          <h2>工事で、<br />終わらせない。</h2>
           <p className={styles.archLead}>空間をつくるハードと、体験を保ち続けるソフト。ふたつを、最初からひとつの商品として設計します。</p>
           <p className={styles.maintenanceLine}>ホテルの空気感は、「メンテナンス」があってこそ維持される</p>
           <div className={styles.floors}>
             <article>
-              <span>2F</span>
-              <div><small>CONTINUING EXPERIENCE</small><h3>暮らしを更新する</h3><p>リネン、アメニティ、香り、飲料、メンテナンスをβ版サービスとして個別に整えます。</p></div>
+              <span>完成後</span>
+              <div><small>CONTINUING CARE</small><h3>暮らしを更新する</h3><p>リネン、アメニティ、香り、飲料、メンテナンスをβ版サービスとして個別に整えます。</p></div>
             </article>
             <article>
-              <span>1F</span>
-              <div><small>INITIAL RENOVATION</small><h3>空間の基盤をつくる</h3><p>設計、造作、照明、家具選定、施工までを、住まいの世界観に合わせて一貫して進めます。</p></div>
+              <span>施工</span>
+              <div><small>DESIGN &amp; BUILD</small><h3>空間の基盤をつくる</h3><p>設計、造作、照明、家具選定、施工までを、住まいの世界観に合わせて一貫して進めます。</p></div>
             </article>
           </div>
         </div>
