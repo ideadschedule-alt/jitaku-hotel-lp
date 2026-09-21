@@ -91,7 +91,7 @@
 .feelingConclusion h3 { margin: 0; font-size: clamp(34px, 4vw, 56px); line-height: 1.55; }
 .feelingAnswer { padding-top: 34px; }
 .feelingAnswer p { margin: 0 0 36px; font-size: 16px; line-height: 2.1; }
-.feelingAnswer strong { color: var(--beta-clay); font-family: "Yu Mincho", serif; font-size: clamp(24px, 2.5vw, 38px); font-weight: 400; line-height: 1.7; }
+.feelingAnswer strong { color: var(--beta-clay); font-family: "Yu Mincho", serif; font-size: clamp(20px, 1.8vw, 28px); font-weight: 400; line-height: 1.7; }
 
 
 .architecture { display: grid; grid-template-columns: 1.04fr .96fr; min-height: 850px; background: var(--beta-ink); color: #f4efe7; }
