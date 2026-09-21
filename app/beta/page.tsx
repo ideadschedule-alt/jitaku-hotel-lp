@@ -112,16 +112,25 @@ export default function BetaPage() {
         </div>
       </section>
 
-      <section className={`${styles.serviceDetail} ${styles.renovationDetail}`} id="renovation">
-        <div className={styles.serviceImage} role="img" aria-label="木の質感と間接照明を生かしたリビングの内装" />
-        <div className={styles.serviceCopy}>
+      <section className={styles.renovationDetail} id="renovation">
+        <div className={styles.renovationInner}>
           <div className={styles.sectionNumber}>03 / DESIGN &amp; BUILD</div>
-          <p className={styles.serviceOverline}>INTERIOR RENOVATION</p>
-          <h2>空間の基盤を、<br />つくる。</h2>
-          <p>内装デザインから造作、照明計画、家具選定、施工まで。住まいの世界観と過ごし方をひとつの設計思想でつなぎ、日常の中に心がほどける空間をつくります。</p>
-          <ul className={styles.serviceList}>
-            <li>内装デザイン</li><li>造作・収納</li><li>照明計画</li><li>家具選定</li><li>施工</li>
-          </ul>
+          <div className={styles.renovationGrid}>
+            <div className={styles.renovationHeading}>
+              <p className={styles.serviceOverline}>INTERIOR RENOVATION</p>
+              <h2>心を動かす理由を、<br />デザインする。</h2>
+            </div>
+            <div className={styles.renovationBody}>
+              <p>窓や自然光を変えられない改装でも、光・素材・手触り・動線のシークエンスを丁寧に整え、五感に残る情景をつくります。思い出のシグネチャーホテルを思わせる一室を、設計から施工まで一貫して形にします。</p>
+              <ul className={styles.renovationFactors}>
+                <li>視線と動きを導くシークエンス</li>
+                <li>やわらかな間接光</li>
+                <li>洗練されたディテール</li>
+                <li>素材の質感と手触り</li>
+                <li>記憶を呼び起こすしつらえ</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 

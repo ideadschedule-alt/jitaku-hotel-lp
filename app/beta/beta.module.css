@@ -101,9 +101,19 @@
 .archContent .overlineDark { color: #bba794; }
 .archContent h2 { margin: 0 0 24px; font-size: clamp(38px, 4.1vw, 62px); line-height: 1.45; }
 .answerCaption { margin: 0 0 24px; max-width: 570px; color: #f0e8df; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(17px, 1.55vw, 22px); line-height: 1.9; }
+.renovationDetail { padding: 130px 8vw 145px; background: var(--beta-paper); }
+.renovationInner { max-width: 1220px; margin: 0 auto; }
+.renovationInner > .sectionNumber { margin-bottom: 62px; }
+.renovationGrid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 10vw; align-items: start; }
+.renovationHeading h2 { margin: 0; font-size: clamp(38px, 4.3vw, 62px); line-height: 1.5; }
+.renovationBody { padding-top: 35px; }
+.renovationBody > p { margin: 0; color: #5f5750; font-size: 15px; line-height: 2.15; }
+.renovationFactors { margin: 42px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; list-style: none; border-top: 1px solid var(--beta-line); }
+.renovationFactors li { padding: 17px 0; border-bottom: 1px solid var(--beta-line); color: #4e4741; font-size: 13px; letter-spacing: .04em; }
+.renovationFactors li:nth-child(odd) { padding-right: 18px; }
+.renovationFactors li:nth-child(even) { padding-left: 18px; border-left: 1px solid var(--beta-line); }
 .serviceDetail { min-height: 680px; display: grid; grid-template-columns: 1fr 1fr; background: var(--beta-paper); }
 .serviceImage { min-height: 600px; background-position: center; background-size: cover; }
-.renovationDetail .serviceImage { background-image: linear-gradient(rgba(40,30,25,.05),rgba(40,30,25,.16)), url('/images/living-room.jpg'); }
 .careDetail { background: var(--beta-sand); }
 .careDetail .serviceImage { grid-column: 2; background-image: linear-gradient(rgba(40,30,25,.03),rgba(40,30,25,.12)), url('/images/bedroom-detail.jpg'); }
 .careDetail .serviceCopy { grid-column: 1; grid-row: 1; }
@@ -218,6 +228,9 @@
   .architecture { min-height: 820px; }
   .archImage { min-height: 0; }
   .archContent { width: min(620px, 74vw); margin: 0 7vw 0 auto; padding: 100px 0 80px; }
+  .renovationDetail { padding: 105px 7vw 115px; }
+  .renovationGrid { grid-template-columns: 1fr; gap: 42px; }
+  .renovationBody { padding-top: 0; }
   .serviceCopy { padding: 85px 7vw; }
   .principleList { grid-template-columns: 1fr; }
   .principleList article,
@@ -276,6 +289,11 @@
   .archImage { min-height: 0; background-image: linear-gradient(90deg, rgba(28,22,18,.68), rgba(28,22,18,.34)), url('/images/living-room-signature.png'); background-position: 45% center; }
   .archContent { width: auto; margin: 0 24px; padding: 110px 0 70px; }
   .archContent h2 { font-size: 36px; }
+  .renovationDetail { padding: 90px 25px; }
+  .renovationInner > .sectionNumber { margin-bottom: 48px; }
+  .renovationHeading h2 { font-size: 34px; }
+  .renovationFactors { grid-template-columns: 1fr; }
+  .renovationFactors li:nth-child(even) { padding-left: 0; border-left: 0; }
   .serviceDetail { min-height: 0; grid-template-columns: 1fr; }
   .serviceImage,
   .careDetail .serviceImage { min-height: 360px; grid-column: 1; grid-row: 1; }
