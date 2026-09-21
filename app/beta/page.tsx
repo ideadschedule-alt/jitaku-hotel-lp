@@ -105,26 +105,43 @@ export default function BetaPage() {
       <section className={styles.architecture} id="concept">
         <div className={styles.archImage} role="img" aria-label="落ち着いた木質空間と造作収納を備えたリビング" />
         <div className={styles.archContent}>
-          <div className={styles.sectionNumber}>02 / REFRAME</div>
-          <p className={styles.overlineDark}>FROM DESIGN TO CONTINUING CARE</p>
-          <h2>工事で、<br />終わらせない。</h2>
+          <div className={styles.sectionNumber}>02 / THE ANSWER</div>
+          <p className={styles.overlineDark}>CHECK-IN HOME</p>
+          <h2>工事だけでは、<br />終わりません。</h2>
+          <p className={styles.answerCaption}>CHECK-IN HOMEは、空間の完成をゴールにせず、そこで生まれる体験を続けるためのサービスまでサポートします。</p>
           <p className={styles.archLead}>空間をつくるハードと、体験を保ち続けるソフト。ふたつを、最初からひとつの商品として設計します。</p>
           <p className={styles.maintenanceLine}>ホテルの空気感は、「メンテナンス」があってこそ維持される</p>
-          <div className={styles.floors}>
-            <article>
-              <span>完成後</span>
-              <div><small>CONTINUING CARE</small><h3>暮らしを更新する</h3><p>リネン、アメニティ、香り、飲料、メンテナンスをβ版サービスとして個別に整えます。</p></div>
-            </article>
-            <article>
-              <span>施工</span>
-              <div><small>DESIGN &amp; BUILD</small><h3>空間の基盤をつくる</h3><p>設計、造作、照明、家具選定、施工までを、住まいの世界観に合わせて一貫して進めます。</p></div>
-            </article>
-          </div>
+        </div>
+      </section>
+
+      <section className={`${styles.serviceDetail} ${styles.renovationDetail}`} id="renovation">
+        <div className={styles.serviceImage} role="img" aria-label="木の質感と間接照明を生かしたリビングの内装" />
+        <div className={styles.serviceCopy}>
+          <div className={styles.sectionNumber}>03 / DESIGN &amp; BUILD</div>
+          <p className={styles.serviceOverline}>INTERIOR RENOVATION</p>
+          <h2>空間の基盤を、<br />つくる。</h2>
+          <p>内装デザインから造作、照明計画、家具選定、施工まで。住まいの世界観と過ごし方をひとつの設計思想でつなぎ、日常の中に心がほどける空間をつくります。</p>
+          <ul className={styles.serviceList}>
+            <li>内装デザイン</li><li>造作・収納</li><li>照明計画</li><li>家具選定</li><li>施工</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className={`${styles.serviceDetail} ${styles.careDetail}`} id="maintenance">
+        <div className={styles.serviceImage} role="img" aria-label="白いリネンと照明が整えられた寝室" />
+        <div className={styles.serviceCopy}>
+          <div className={styles.sectionNumber}>04 / CONTINUING CARE</div>
+          <p className={styles.serviceOverline}>AFTERCARE &amp; MAINTENANCE</p>
+          <h2>完成後の体験を、<br />整え続ける。</h2>
+          <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。</p>
+          <ul className={styles.serviceList}>
+            <li>リネン・タオル</li><li>香り・アメニティ</li><li>家具レンタル</li><li>清掃・家事サポート</li>
+          </ul>
         </div>
       </section>
 
       <section className={styles.principles}>
-        <div className={styles.sectionNumber}>03 / DESIGN PRINCIPLES</div>
+        <div className={styles.sectionNumber}>05 / DESIGN PRINCIPLES</div>
         <div className={styles.headingRow}>
           <h2>ホテルの空気は、<br />感覚ではなく設計できる。</h2>
           <p>色を絞り、生活感を隠し、光を分散する。住まいとしての使いやすさを残しながら、静かな非日常をつくります。</p>
@@ -153,7 +170,7 @@ export default function BetaPage() {
       </section>
 
       <section className={styles.plans} id="plans">
-        <div className={styles.sectionNumber}>04 / BETA PLANS</div>
+        <div className={styles.sectionNumber}>06 / BETA PLANS</div>
         <div className={styles.headingRow}>
           <h2>完成後の暮らしまで、<br />住まいに合わせて整える。</h2>
           <p>現在は少数のファウンディングメンバーと、担当者が直接やり取りしながらサービスを育てるβ運用期間です。</p>
@@ -194,7 +211,7 @@ export default function BetaPage() {
       </section>
 
       <section className={styles.flow} id="flow">
-        <div className={styles.sectionNumber}>05 / HOW IT WORKS</div>
+        <div className={styles.sectionNumber}>07 / HOW IT WORKS</div>
         <h2>ここからが、本当の<br />お付き合いのはじまり。</h2>
         <ol>
           <li><span>01</span><div><strong>無料相談</strong><p>住まいの写真と、叶えたい過ごし方をお聞かせください。</p></div></li>
@@ -206,7 +223,7 @@ export default function BetaPage() {
 
       <section className={styles.faq} id="faq">
         <div>
-          <div className={styles.sectionNumber}>06 / FAQ</div>
+          <div className={styles.sectionNumber}>08 / FAQ</div>
           <h2>はじめる前に、<br />知っておきたいこと。</h2>
         </div>
         <div className={styles.faqList}>

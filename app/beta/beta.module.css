@@ -100,14 +100,25 @@
 .archContent .sectionNumber { color: #bba794; margin-bottom: 55px; }
 .archContent .overlineDark { color: #bba794; }
 .archContent h2 { margin: 0 0 24px; font-size: clamp(38px, 4.1vw, 62px); line-height: 1.45; }
-.archLead { margin: 0 0 42px; max-width: 560px; color: #cfc4b8; font-size: 14px; line-height: 2.1; }
-.maintenanceLine { margin: 0 0 42px; padding: 20px 0; border-top: 1px solid rgba(182,154,101,.7); border-bottom: 1px solid rgba(182,154,101,.7); color: #f3e9da; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(18px, 1.7vw, 24px); line-height: 1.75; letter-spacing: .035em; }
-.floors { border-top: 1px solid rgba(255,255,255,.2); }
-.floors article { display: grid; grid-template-columns: 94px 1fr; gap: 24px; padding: 24px 0; border-bottom: 1px solid rgba(255,255,255,.2); }
-.floors article > span { width: 74px; height: 48px; display: grid; place-items: center; border: 1px solid var(--beta-clay); color: #d38d7e; font-size: 12px; letter-spacing: .08em; }
-.floors small { color: #9e9186; font-family: Georgia, serif; font-size: 8px; letter-spacing: .18em; }
-.floors h3 { margin: 6px 0 8px; font-size: 20px; }
-.floors p { margin: 0; color: #bfb4a9; font-size: 12px; line-height: 1.85; }
+.answerCaption { margin: 0 0 24px; max-width: 570px; color: #f0e8df; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(17px, 1.55vw, 22px); line-height: 1.9; }
+.archLead { margin: 0 0 34px; max-width: 560px; color: #cfc4b8; font-size: 14px; line-height: 2.1; }
+.maintenanceLine { margin: 0; padding: 20px 0; border-top: 1px solid rgba(182,154,101,.7); border-bottom: 1px solid rgba(182,154,101,.7); color: #f3e9da; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(18px, 1.7vw, 24px); line-height: 1.75; letter-spacing: .035em; }
+
+.serviceDetail { min-height: 680px; display: grid; grid-template-columns: 1fr 1fr; background: var(--beta-paper); }
+.serviceImage { min-height: 600px; background-position: center; background-size: cover; }
+.renovationDetail .serviceImage { background-image: linear-gradient(rgba(40,30,25,.05),rgba(40,30,25,.16)), url('/images/living-room.jpg'); }
+.careDetail { background: var(--beta-sand); }
+.careDetail .serviceImage { grid-column: 2; background-image: linear-gradient(rgba(40,30,25,.03),rgba(40,30,25,.12)), url('/images/bedroom-detail.jpg'); }
+.careDetail .serviceCopy { grid-column: 1; grid-row: 1; }
+.serviceCopy { padding: 110px 8vw; display: flex; flex-direction: column; justify-content: center; }
+.serviceCopy .sectionNumber { margin-bottom: 52px; }
+.serviceOverline { margin: 0 0 25px; color: var(--beta-clay); font-family: Georgia, serif; font-size: 10px; letter-spacing: .2em; }
+.serviceCopy h2 { margin: 0 0 30px; font-size: clamp(38px, 4.3vw, 62px); line-height: 1.5; }
+.serviceCopy > p:not(.serviceOverline) { margin: 0; color: #5f5750; font-size: 14px; line-height: 2.15; }
+.serviceList { margin: 42px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; list-style: none; border-top: 1px solid var(--beta-line); }
+.serviceList li { padding: 16px 0; border-bottom: 1px solid var(--beta-line); color: #4e4741; font-size: 12px; letter-spacing: .04em; }
+.serviceList li:nth-child(odd) { padding-right: 18px; }
+.serviceList li:nth-child(even) { padding-left: 18px; border-left: 1px solid var(--beta-line); }
 
 .principles,
 .plans,
@@ -209,6 +220,7 @@
   .senseGrid { grid-template-columns: 1fr 1fr; }
   .architecture { grid-template-columns: 1fr; }
   .archImage { min-height: 500px; }
+  .serviceCopy { padding: 85px 7vw; }
   .principleList { grid-template-columns: 1fr; }
   .principleList article,
   .principleList article + article { min-height: 0; padding: 28px 0; border-right: 0; border-bottom: 1px solid var(--beta-line); }
@@ -263,7 +275,13 @@
   .archImage { min-height: 390px; }
   .archContent { padding: 80px 25px; }
   .archContent h2 { font-size: 36px; }
-  .floors article { grid-template-columns: 82px 1fr; gap: 16px; }
+  .serviceDetail { min-height: 0; grid-template-columns: 1fr; }
+  .serviceImage,
+  .careDetail .serviceImage { min-height: 360px; grid-column: 1; grid-row: 1; }
+  .careDetail .serviceCopy { grid-column: 1; grid-row: 2; }
+  .serviceCopy { padding: 78px 25px; }
+  .serviceList { grid-template-columns: 1fr; }
+  .serviceList li:nth-child(even) { padding-left: 0; border-left: 0; }
   .dayStory { padding: 90px 25px 120px; grid-template-columns: 1fr; }
   .dayPrimary img { height: 460px; }
   .daySecondary { transform: none; }
