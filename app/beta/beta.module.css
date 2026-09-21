@@ -92,11 +92,6 @@
 .feelingAnswer { padding-top: 34px; }
 .feelingAnswer p { margin: 0 0 36px; font-size: 16px; line-height: 2.1; }
 .feelingAnswer strong { color: var(--beta-clay); font-family: "Yu Mincho", serif; font-size: clamp(24px, 2.5vw, 38px); font-weight: 400; line-height: 1.7; }
-.experienceMap { max-width: 1220px; margin: 90px auto 0; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--beta-line); border-bottom: 1px solid var(--beta-line); }
-.experienceMap div { min-height: 150px; padding: 25px 22px; border-right: 1px solid var(--beta-line); }
-.experienceMap div:last-child { border-right: 0; }
-.experienceMap span { color: #936f5e; font-family: Georgia, serif; font-size: 8px; letter-spacing: .14em; }
-.experienceMap p { margin: 34px 0 0; font-size: 13px; line-height: 1.8; }
 
 
 .architecture { display: grid; grid-template-columns: 1.04fr .96fr; min-height: 850px; background: var(--beta-ink); color: #f4efe7; }
@@ -212,8 +207,6 @@
   .feelingNarrative { margin-top: 42px; padding-top: 0; }
   .feelingNarrative p span { display: inline; white-space: normal; }
   .senseGrid { grid-template-columns: 1fr 1fr; }
-  .experienceMap { grid-template-columns: repeat(3, 1fr); }
-  .experienceMap div:nth-child(3) { border-right: 0; }
   .architecture { grid-template-columns: 1fr; }
   .archImage { min-height: 500px; }
   .principleList { grid-template-columns: 1fr; }
@@ -258,8 +251,6 @@
   .senseCopy { padding: 28px 24px; }
   .senseGrid h3 { margin-top: 28px; }
   .feelingConclusion { margin-top: 80px; padding-top: 55px; gap: 35px; }
-  .experienceMap { margin-top: 65px; grid-template-columns: 1fr; }
-  .experienceMap div, .experienceMap div:nth-child(3) { min-height: 0; border-right: 0; border-bottom: 1px solid var(--beta-line); }
   .discoverGrid,
   .headingRow { margin-top: 45px; gap: 42px; }
   .discover h2,

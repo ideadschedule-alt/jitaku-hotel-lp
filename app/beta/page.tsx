@@ -100,13 +100,6 @@ export default function BetaPage() {
             <strong>感動が生まれる理由を設計し、<br />続く仕組みまでつくる。</strong>
           </div>
         </div>
-        <div className={styles.experienceMap}>
-          <div><span>RENOVATION</span><p>感動が生まれる<br />空間をつくる</p></div>
-          <div><span>FURNITURE &amp; LIGHT</span><p>視界と過ごし方を<br />整える</p></div>
-          <div><span>SCENT &amp; AMENITY</span><p>五感を日常から<br />切り替える</p></div>
-          <div><span>MAINTENANCE</span><p>ホテルの空気感を<br />維持する</p></div>
-          <div><span>FURNITURE RENTAL</span><p>ときどき新鮮さを<br />更新する</p></div>
-        </div>
       </section>
 
       <section className={styles.architecture} id="concept">
