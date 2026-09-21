@@ -113,16 +113,15 @@
 .renovationFactors li { padding: 17px 0; border-bottom: 1px solid var(--beta-line); color: #4e4741; font-size: 13px; letter-spacing: .04em; }
 .renovationFactors li:nth-child(odd) { padding-right: 18px; }
 .renovationFactors li:nth-child(even) { padding-left: 18px; border-left: 1px solid var(--beta-line); }
-.serviceDetail { min-height: 680px; display: grid; grid-template-columns: 1fr 1fr; background: var(--beta-paper); }
-.serviceImage { min-height: 600px; background-position: center; background-size: cover; }
+.serviceDetail { background: var(--beta-paper); }
 .careDetail { background: var(--beta-sand); }
-.careDetail .serviceImage { grid-column: 2; background-image: linear-gradient(rgba(40,30,25,.03),rgba(40,30,25,.12)), url('/images/bedroom-detail.jpg'); }
-.careDetail .serviceCopy { grid-column: 1; grid-row: 1; }
-.serviceCopy { padding: 110px 8vw; display: flex; flex-direction: column; justify-content: center; }
+.serviceCopy { max-width: 1220px; margin: 0 auto; padding: 130px 8vw 145px; }
 .serviceCopy .sectionNumber { margin-bottom: 52px; }
+.serviceGrid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 10vw; align-items: start; }
 .serviceOverline { margin: 0 0 25px; color: var(--beta-clay); font-family: Georgia, serif; font-size: 10px; letter-spacing: .2em; }
-.serviceCopy h2 { margin: 0 0 30px; font-size: clamp(38px, 4.3vw, 62px); line-height: 1.5; }
-.serviceCopy > p:not(.serviceOverline) { margin: 0; color: #5f5750; font-size: 14px; line-height: 2.15; }
+.serviceHeading h2 { margin: 0; font-size: clamp(38px, 4.3vw, 62px); line-height: 1.5; }
+.serviceBody { padding-top: 35px; }
+.serviceBody > p { margin: 0; color: #5f5750; font-size: 14px; line-height: 2.15; }
 .serviceList { margin: 42px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; list-style: none; border-top: 1px solid var(--beta-line); }
 .serviceList li { padding: 16px 0; border-bottom: 1px solid var(--beta-line); color: #4e4741; font-size: 12px; letter-spacing: .04em; }
 .serviceList li:nth-child(odd) { padding-right: 18px; }
@@ -232,7 +231,9 @@
   .renovationDetail { padding: 105px 7vw 115px; }
   .renovationGrid { grid-template-columns: 1fr; gap: 42px; }
   .renovationBody { padding-top: 0; }
-  .serviceCopy { padding: 85px 7vw; }
+  .serviceCopy { padding: 105px 7vw 115px; }
+  .serviceGrid { grid-template-columns: 1fr; gap: 42px; }
+  .serviceBody { padding-top: 0; }
   .principleList { grid-template-columns: 1fr; }
   .principleList article,
   .principleList article + article { min-height: 0; padding: 28px 0; border-right: 0; border-bottom: 1px solid var(--beta-line); }
@@ -295,10 +296,6 @@
   .renovationHeading h2 { font-size: 34px; }
   .renovationFactors { grid-template-columns: 1fr; }
   .renovationFactors li:nth-child(even) { padding-left: 0; border-left: 0; }
-  .serviceDetail { min-height: 0; grid-template-columns: 1fr; }
-  .serviceImage,
-  .careDetail .serviceImage { min-height: 360px; grid-column: 1; grid-row: 1; }
-  .careDetail .serviceCopy { grid-column: 1; grid-row: 2; }
   .serviceCopy { padding: 78px 25px; }
   .serviceList { grid-template-columns: 1fr; }
   .serviceList li:nth-child(even) { padding-left: 0; border-left: 0; }

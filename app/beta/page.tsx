@@ -136,15 +136,20 @@ export default function BetaPage() {
       </section>
 
       <section className={`${styles.serviceDetail} ${styles.careDetail}`} id="maintenance">
-        <div className={styles.serviceImage} role="img" aria-label="白いリネンと照明が整えられた寝室" />
         <div className={styles.serviceCopy}>
           <div className={styles.sectionNumber}>04 / CONTINUING CARE</div>
-          <p className={styles.serviceOverline}>AFTERCARE &amp; MAINTENANCE</p>
-          <h2>完成後も、<br />色褪せない感動を。</h2>
-          <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。</p>
-          <ul className={styles.serviceList}>
-            <li>リネン・タオル</li><li>香り・アメニティ</li><li>家具レンタル</li><li>清掃・家事サポート</li>
-          </ul>
+          <div className={styles.serviceGrid}>
+            <div className={styles.serviceHeading}>
+              <p className={styles.serviceOverline}>AFTERCARE &amp; MAINTENANCE</p>
+              <h2>完成後も、<br />感動は色褪せない。</h2>
+            </div>
+            <div className={styles.serviceBody}>
+              <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。</p>
+              <ul className={styles.serviceList}>
+                <li>リネン・タオル</li><li>香り・アメニティ</li><li>家具レンタル</li><li>清掃・家事サポート</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
