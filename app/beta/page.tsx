@@ -233,7 +233,7 @@ export default function BetaPage() {
 
       <section className={styles.flow} id="flow">
         <div className={styles.sectionNumber}>07 / HOW IT WORKS</div>
-        <h2>ここからが、本当の<br />お付き合いのはじまり。</h2>
+        <h2>プロジェクトフロー</h2>
         <ol>
           <li><span>01</span><div><strong>無料相談</strong><p>住まいの写真と、叶えたい過ごし方をお聞かせください。</p></div></li>
           <li><span>02</span><div><strong>設計・お見積り</strong><p>空間と完成後の体験を、ひとつの計画としてご提案します。</p></div></li>
