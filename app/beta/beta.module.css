@@ -88,10 +88,10 @@
 .senseGrid h3 { margin: 28px 0 18px; font-size: 24px; font-weight: 400; }
 .senseGrid p { margin: 0; color: #655d55; font-size: 14px; line-height: 2; }
 .feelingConclusion { max-width: 1220px; margin: 120px auto 0; padding-top: 72px; display: grid; grid-template-columns: 1fr 1fr; gap: 9vw; border-top: 1px solid var(--beta-line); }
-.feelingConclusion h3 { margin: 0; font-size: clamp(34px, 4vw, 56px); line-height: 1.55; }
+.feelingConclusion h3 { margin: 0; font-size: clamp(38px, 4.7vw, 68px); line-height: 1.5; letter-spacing: .03em; }
 .feelingAnswer { padding-top: 34px; }
-.feelingAnswer p { margin: 0 0 36px; font-size: 16px; line-height: 2.1; }
-.feelingAnswer strong { color: var(--beta-clay); font-family: "Yu Mincho", serif; font-size: clamp(20px, 1.8vw, 28px); font-weight: 400; line-height: 1.7; }
+.feelingAnswer p { margin: 0 0 36px; font-size: 15px; line-height: 2.15; }
+.feelingAnswer strong { color: var(--beta-clay); font-family: "Yu Mincho", serif; font-size: 24px; font-weight: 400; line-height: 1.7; }
 
 
 .architecture { display: grid; grid-template-columns: 1.04fr .96fr; min-height: 850px; background: var(--beta-ink); color: #f4efe7; }
@@ -271,6 +271,8 @@
   .flow h2,
   .faq h2 { font-size: 34px; }
   .bodyCopy .pullQuote { font-size: 20px; }
+  .feelingConclusion h3 { font-size: 34px; }
+  .feelingAnswer strong { font-size: 20px; }
   .fixedFourLines span { display: inline; white-space: normal; }
   .archImage { min-height: 390px; }
   .archContent { padding: 80px 25px; }
