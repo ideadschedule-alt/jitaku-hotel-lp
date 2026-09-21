@@ -128,6 +128,7 @@ export default function BetaPage() {
                 <li>洗練されたディテール</li>
                 <li>素材の質感と手触り</li>
                 <li>記憶を呼び起こすしつらえ</li>
+                <li>五感で感じる世界観の構築</li>
               </ul>
             </div>
           </div>
