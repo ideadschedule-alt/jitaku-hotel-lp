@@ -6,12 +6,6 @@ export const metadata: Metadata = {
   description: "内装設計・施工と、完成後のリネンやアメニティ、ホームバー体験をひとつにした自宅ホテル化計画のβ版ページです。",
 };
 
-const principles = [
-  ["01", "色は3色まで", "ベース70%、メイン20%、アクセント10%。色数を絞り、木・石・真鍮など素材の質感を重ねます。"],
-  ["02", "生活感を隠す", "家電、配線、日用品は造作収納の中へ。視界のノイズを減らし、空間に静けさをつくります。"],
-  ["03", "光を分散する", "一室一灯ではなく、間接照明やブラケットを配置。光と影の奥行きでホテルの空気を整えます。"],
-];
-
 const faqs = [
   ["賃貸でも相談できますか？", "造作を伴うプランは戸建て・分譲マンションが基本です。賃貸の場合は、原状回復が可能な範囲でご提案します。"],
   ["施工だけ、継続サービスだけでも利用できますか？", "個別のご相談も可能です。ただし空間と体験を一体で設計することで、このサービスの価値を最も実感いただけます。"],
@@ -162,20 +156,8 @@ export default function BetaPage() {
         </div>
       </section>
 
-      <section className={styles.principles}>
-        <div className={styles.sectionNumber}>05 / DESIGN PRINCIPLES</div>
-        <div className={styles.principlesIntro}>
-          <p>色を絞り、生活感を隠し、光を分散する。住まいとしての使いやすさを残しながら、静かな非日常をつくります。</p>
-        </div>
-        <div className={styles.principleList}>
-          {principles.map(([number, title, text]) => (
-            <article key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>
-          ))}
-        </div>
-      </section>
-
       <section className={styles.plans} id="plans">
-        <div className={styles.sectionNumber}>06 / BETA PLANS</div>
+        <div className={styles.sectionNumber}>05 / BETA PLANS</div>
         <div className={styles.headingRow}>
           <h2>完成後の暮らしまで、<br />住まいに合わせて整える。</h2>
           <p>現在は少数のファウンディングメンバーと、担当者が直接やり取りしながらサービスを育てるβ運用期間です。</p>
@@ -216,7 +198,7 @@ export default function BetaPage() {
       </section>
 
       <section className={styles.flow} id="flow">
-        <div className={styles.sectionNumber}>07 / HOW IT WORKS</div>
+        <div className={styles.sectionNumber}>06 / HOW IT WORKS</div>
         <h2>プロジェクトフロー</h2>
         <ol>
           <li><span>01</span><div><strong>無料相談</strong><p>住まいの写真と、叶えたい過ごし方をお聞かせください。</p></div></li>
@@ -228,7 +210,7 @@ export default function BetaPage() {
 
       <section className={styles.faq} id="faq">
         <div>
-          <div className={styles.sectionNumber}>08 / FAQ</div>
+          <div className={styles.sectionNumber}>07 / FAQ</div>
           <h2>はじめる前に、<br />知っておきたいこと。</h2>
         </div>
         <div className={styles.faqList}>
