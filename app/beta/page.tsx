@@ -148,12 +148,12 @@ export default function BetaPage() {
               <div className={styles.carePlanSummary}>
                 <article>
                   <small>BEDROOM &amp; LIVING</small>
-                  <h3>ホテル・ステイ・エッセンシャル</h3>
+                  <h3>ホテル・ステイ・エッセンシャル（β版）</h3>
                   <p>リネン・タオル、アメニティ、香りを定期的に整える。</p>
                 </article>
                 <article>
                   <small>WEEKLY HOME CARE</small>
-                  <h3>ホテル・コンシェルジュ・ケア</h3>
+                  <h3>ホテル・コンシェルジュ・ケア（β版）</h3>
                   <p>清掃、家事、当日の夕食や作り置きまで支える。</p>
                 </article>
               </div>
@@ -200,7 +200,7 @@ export default function BetaPage() {
         <div className={styles.planGrid}>
           <article className={styles.planCard}>
             <div className={styles.planTop}><span>PLAN A</span><small>BEDROOM &amp; LIVING</small></div>
-            <h3>ホテル・ステイ・<br />エッセンシャル</h3>
+            <h3>ホテル・ステイ・<br />エッセンシャル（β版）</h3>
             <p>上質なリネンの交換・回収、タオルの定期交換、空間に合うアメニティやシグネチャーの香りをお届けします。</p>
             <ul><li>高級リネン交換・回収</li><li>バスアメニティ</li><li>ルームフレグランス</li></ul>
             <div className={styles.price}><small>月額目安</small><strong>¥12,000–25,000</strong></div>
@@ -216,7 +216,7 @@ export default function BetaPage() {
         <article className={styles.conciergeCard}>
           <div className={styles.conciergeIntro}>
             <div className={styles.planTop}><span>OPTIONAL PLAN</span><small>WEEKLY HOME CARE</small></div>
-            <h3>ホテル・コンシェルジュ・<br />ケア</h3>
+            <h3>ホテル・コンシェルジュ・<br />ケア（β版）</h3>
           </div>
           <div className={styles.conciergeBody}>
             <p>週1回を目安に、提携パートナーが部屋と水回りを整えます。ご希望に応じて、ホテルのような当日の夕食や一週間分の作り置きまで。空間だけでなく、帰宅した瞬間の体験まで整える追加プランです。</p>
