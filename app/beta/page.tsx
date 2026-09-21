@@ -87,7 +87,7 @@ export default function BetaPage() {
               <span>けれど、時を重ねるほど、その新鮮さは少しずつ日常へ。</span>
               <span>完成時の感動を、暮らしの中で育て続ける仕組みが必要です。</span>
             </p>
-            <p className={styles.pullQuote}>「感動が続かない」のは、<br />あなたのせいではありません。</p>
+            <p className={styles.pullQuote}>感動が続かないのは、<br />続ける仕組みがないからです。</p>
           </div>
         </div>
         <div className={styles.feelingConclusion}>
