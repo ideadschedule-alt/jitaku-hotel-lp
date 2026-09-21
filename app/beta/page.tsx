@@ -152,11 +152,6 @@ export default function BetaPage() {
                   <p>リネン・タオル、アメニティ、香りを定期的に整える。</p>
                 </article>
                 <article>
-                  <small>HOME BAR</small>
-                  <h3>ホームバー・マスター・サプライ</h3>
-                  <p>サーバーの保守から、飲料やバー用品の補充まで。</p>
-                </article>
-                <article>
                   <small>WEEKLY HOME CARE</small>
                   <h3>ホテル・コンシェルジュ・ケア</h3>
                   <p>清掃、家事、当日の夕食や作り置きまで支える。</p>
