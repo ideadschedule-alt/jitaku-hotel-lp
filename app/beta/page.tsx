@@ -110,7 +110,6 @@ export default function BetaPage() {
           <h2>工事だけでは、<br />終わりません。</h2>
           <p className={styles.answerCaption}>CHECK-IN HOMEは、空間の完成をゴールにせず、そこで生まれる体験を続けるためのサービスまでサポートします。</p>
           <p className={styles.archLead}>空間をつくるハードと、体験を保ち続けるソフト。ふたつを、最初からひとつの商品として設計します。</p>
-          <p className={styles.maintenanceLine}>ホテルの空気感は、「メンテナンス」があってこそ維持される</p>
         </div>
       </section>
 

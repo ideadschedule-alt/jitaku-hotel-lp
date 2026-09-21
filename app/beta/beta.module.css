@@ -102,8 +102,6 @@
 .archContent h2 { margin: 0 0 24px; font-size: clamp(38px, 4.1vw, 62px); line-height: 1.45; }
 .answerCaption { margin: 0 0 24px; max-width: 570px; color: #f0e8df; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(17px, 1.55vw, 22px); line-height: 1.9; }
 .archLead { margin: 0 0 34px; max-width: 560px; color: #cfc4b8; font-size: 14px; line-height: 2.1; }
-.maintenanceLine { margin: 0; padding: 20px 0; border-top: 1px solid rgba(182,154,101,.7); border-bottom: 1px solid rgba(182,154,101,.7); color: #f3e9da; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(18px, 1.7vw, 24px); line-height: 1.75; letter-spacing: .035em; }
-
 .serviceDetail { min-height: 680px; display: grid; grid-template-columns: 1fr 1fr; background: var(--beta-paper); }
 .serviceImage { min-height: 600px; background-position: center; background-size: cover; }
 .renovationDetail .serviceImage { background-image: linear-gradient(rgba(40,30,25,.05),rgba(40,30,25,.16)), url('/images/living-room.jpg'); }
