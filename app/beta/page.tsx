@@ -54,7 +54,7 @@ export default function BetaPage() {
         <div className={styles.feelingIntro}>
           <div>
             <p className={styles.feelingKicker}>THE FEELING OF A HOTEL</p>
-            <h2>ホテルで心が動くのには、<br />理由があります。</h2>
+            <h2><span>心が動くのには、</span><span>理由があります。</span></h2>
           </div>
           <div className={styles.feelingNarrative}>
             <p>扉を開けた瞬間に感じる香り。やわらかく広がる光。視界から生活感が消え、リネンも家具も、きれいに整えられている。</p>

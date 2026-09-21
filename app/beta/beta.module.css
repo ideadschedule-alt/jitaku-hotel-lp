@@ -73,6 +73,7 @@
 .feelingIntro { max-width: 1220px; margin: 0 auto; display: grid; grid-template-columns: 1.08fr .92fr; gap: 10vw; align-items: end; }
 .feelingKicker { margin: 0 0 26px; color: #8f6f5f; font-family: Georgia, serif; font-size: 10px; letter-spacing: .24em; }
 .feeling h2 { margin: 0; font-size: clamp(38px, 4.7vw, 68px); line-height: 1.5; letter-spacing: .03em; }
+.feeling h2 span { display: block; white-space: nowrap; }
 .feelingNarrative { padding-bottom: 8px; }
 .feelingNarrative p { margin: 0 0 24px; font-size: 16px; line-height: 2.15; }
 .senseGrid { max-width: 1220px; margin: 100px auto 0; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--beta-line); border-left: 1px solid var(--beta-line); }
