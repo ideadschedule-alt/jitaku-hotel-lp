@@ -45,11 +45,49 @@ export default function BetaPage() {
           <p className={styles.heroLead}>施工と、暮らしの継続体験をひとつに。<br />空間をつくって終わらない、住まいの新しい選択肢です。</p>
           <div className={styles.heroActions}>
             <a className={styles.primaryButton} href="mailto:info@idea-d.jp?subject=自宅ホテル化計画β版の無料相談">無料相談を予約する <span>↗</span></a>
-            <a className={styles.textLink} href="#discover">計画について知る <span>↓</span></a>
+            <a className={styles.textLink} href="#feeling">計画について知る <span>↓</span></a>
           </div>
         </div>
         <p className={styles.heroFoot}>FOR HOMEOWNERS WHO WANT TO TURN THE EVERYDAY INTO SOMETHING EXTRAORDINARY.</p>
       </section>
+      <section className={styles.feeling} id="feeling">
+        <div className={styles.feelingIntro}>
+          <div>
+            <p className={styles.feelingKicker}>THE FEELING OF A HOTEL</p>
+            <h2>ホテルで心が動くのは、<br />豪華だからではありません。</h2>
+          </div>
+          <div className={styles.feelingNarrative}>
+            <p>扉を開けた瞬間に感じる香り。やわらかく広がる光。視界から生活感が消え、リネンも家具も、きれいに整えられている。</p>
+            <p>いつもの日常から、気持ちが切り替わる。ホテルで感じる新鮮さの正体は、空間と体験が、自分のために整えられていることです。</p>
+          </div>
+        </div>
+        <div className={styles.senseGrid} aria-label="ホテルで日常から気持ちが切り替わる六つの理由">
+          <article><span>01 / SIGHT</span><h3>静かな視界</h3><p>生活感や余計なものが目に入らず、心まで静かになる。</p></article>
+          <article><span>02 / SCENT</span><h3>記憶に残る香り</h3><p>扉を開けた瞬間、いつもとは違う空気に切り替わる。</p></article>
+          <article><span>03 / LIGHT</span><h3>やわらかな光</h3><p>直接照らすのではなく、光と影が落ち着きをつくる。</p></article>
+          <article><span>04 / TOUCH</span><h3>肌で感じる心地よさ</h3><p>清潔なリネンやタオルの感触が、休息のスイッチになる。</p></article>
+          <article><span>05 / ORDER</span><h3>整えられたしつらえ</h3><p>家具や小物の置き方まで、過ごしやすさが設計されている。</p></article>
+          <article><span>06 / CARE</span><h3>手入れされた安心感</h3><p>いつ訪れても整っていることが、特別な時間を支えている。</p></article>
+        </div>
+        <div className={styles.feelingConclusion}>
+          <div>
+            <p className={styles.feelingKicker}>BRING THE FEELING HOME</p>
+            <h3>その感覚を、<br />旅先だけのものにしない。</h3>
+          </div>
+          <div className={styles.feelingAnswer}>
+            <p>私たちは、ホテルの見た目を真似るのではなく、ホテルで心が動く理由から自宅を設計します。</p>
+            <strong>ホテルで感動する理由を、<br />自宅に再現する。</strong>
+          </div>
+        </div>
+        <div className={styles.experienceMap}>
+          <div><span>RENOVATION</span><p>感動が生まれる<br />空間をつくる</p></div>
+          <div><span>FURNITURE &amp; LIGHT</span><p>視界と過ごし方を<br />整える</p></div>
+          <div><span>SCENT &amp; AMENITY</span><p>五感を日常から<br />切り替える</p></div>
+          <div><span>MAINTENANCE</span><p>ホテルの空気感を<br />維持する</p></div>
+          <div><span>FURNITURE RENTAL</span><p>ときどき新鮮さを<br />更新する</p></div>
+        </div>
+      </section>
+
 
       <section className={styles.discover} id="discover">
         <div className={styles.sectionNumber}>01 / DISCOVER</div>
