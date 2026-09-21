@@ -174,22 +174,6 @@ export default function BetaPage() {
         </div>
       </section>
 
-      <section className={styles.dayStory}>
-        <div className={styles.dayIntro}>
-          <p className={styles.overlineDark}>A DAY AT CHECK-IN HOME</p>
-          <h2>チェックアウトのない、<br />ホテル時間を。</h2>
-          <p>朝は糊のきいたシーツで目覚める。夜は自宅のカウンターで一杯。空間も、そこで過ごす時間も、暮らしに合わせて更新されていきます。</p>
-        </div>
-        <figure className={styles.dayPrimary}>
-          <img src="/images/bedroom-japanese-modern.png" alt="木格子と白いリネンを配した落ち着いた寝室" />
-          <figcaption>06:30 — WAKE UP</figcaption>
-        </figure>
-        <figure className={styles.daySecondary}>
-          <img src="/images/living-room-signature.png" alt="木の造作と石のテーブルを組み合わせたリビング" />
-          <figcaption>20:00 — UNWIND AT HOME</figcaption>
-        </figure>
-      </section>
-
       <section className={styles.plans} id="plans">
         <div className={styles.sectionNumber}>06 / BETA PLANS</div>
         <div className={styles.headingRow}>
