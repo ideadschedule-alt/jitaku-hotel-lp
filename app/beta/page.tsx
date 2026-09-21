@@ -54,7 +54,7 @@ export default function BetaPage() {
         <div className={styles.feelingIntro}>
           <div>
             <p className={styles.feelingKicker}>ISSUE 01 / THE SOURCE OF WONDER</p>
-            <h2><span>なぜ、ホテルは</span><span>ワクワクするのか。</span></h2>
+            <h2><span>心を動かされるには、</span><span>理由があります。</span></h2>
           </div>
           <div className={styles.feelingNarrative}>
             <p>
