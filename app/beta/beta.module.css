@@ -94,9 +94,9 @@
 .feelingAnswer strong { color: var(--beta-clay); font-family: "Yu Mincho", serif; font-size: 24px; font-weight: 400; line-height: 1.7; }
 
 
-.architecture { display: grid; grid-template-columns: 1.04fr .96fr; min-height: 850px; background: var(--beta-ink); color: #f4efe7; }
-.archImage { min-height: 760px; background: linear-gradient(rgba(40,30,25,.04),rgba(40,30,25,.2)), url('/images/living-room-signature.png') center / cover no-repeat; }
-.archContent { padding: 105px 6vw 90px; display: flex; flex-direction: column; justify-content: center; }
+.architecture { position: relative; min-height: 880px; display: flex; align-items: center; justify-content: flex-end; color: #f4efe7; overflow: hidden; }
+.archImage { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(28,22,18,.05) 0%, rgba(28,22,18,.18) 43%, rgba(28,22,18,.76) 100%), url('/images/living-room-signature.png') center / cover no-repeat; transform: scale(1.01); }
+.archContent { position: relative; z-index: 2; width: min(640px, 44vw); margin-right: 6vw; padding: 105px 3vw 90px; display: flex; flex-direction: column; justify-content: center; }
 .archContent .sectionNumber { color: #bba794; margin-bottom: 55px; }
 .archContent .overlineDark { color: #bba794; }
 .archContent h2 { margin: 0 0 24px; font-size: clamp(38px, 4.1vw, 62px); line-height: 1.45; }
@@ -218,8 +218,9 @@
   .feelingNarrative { margin-top: 42px; padding-top: 0; }
   .feelingNarrative p span { display: inline; white-space: normal; }
   .senseGrid { grid-template-columns: 1fr 1fr; }
-  .architecture { grid-template-columns: 1fr; }
-  .archImage { min-height: 500px; }
+  .architecture { min-height: 820px; }
+  .archImage { min-height: 0; }
+  .archContent { width: min(620px, 74vw); margin: 0 7vw 0 auto; padding: 100px 0 80px; }
   .serviceCopy { padding: 85px 7vw; }
   .principleList { grid-template-columns: 1fr; }
   .principleList article,
@@ -274,8 +275,9 @@
   .feelingConclusion h3 { font-size: 34px; }
   .feelingAnswer strong { font-size: 20px; }
   .fixedFourLines span { display: inline; white-space: normal; }
-  .archImage { min-height: 390px; }
-  .archContent { padding: 80px 25px; }
+  .architecture { min-height: 760px; align-items: flex-end; }
+  .archImage { min-height: 0; background-image: linear-gradient(90deg, rgba(28,22,18,.68), rgba(28,22,18,.34)), url('/images/living-room-signature.png'); background-position: 45% center; }
+  .archContent { width: auto; margin: 0 24px; padding: 110px 0 70px; }
   .archContent h2 { font-size: 36px; }
   .serviceDetail { min-height: 0; grid-template-columns: 1fr; }
   .serviceImage,
