@@ -141,7 +141,7 @@ export default function BetaPage() {
           <div className={styles.serviceGrid}>
             <div className={styles.serviceHeading}>
               <p className={styles.serviceOverline}>AFTERCARE &amp; MAINTENANCE</p>
-              <h2>完成後も、<br />感動は色褪せない。</h2>
+              <h2><span>完成後も、</span><span>感動は色褪せない。</span></h2>
             </div>
             <div className={styles.serviceBody}>
               <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。</p>

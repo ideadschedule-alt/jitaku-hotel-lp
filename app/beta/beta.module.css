@@ -119,7 +119,8 @@
 .serviceCopy .sectionNumber { margin-bottom: 52px; }
 .serviceGrid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 10vw; align-items: start; }
 .serviceOverline { margin: 0 0 25px; color: var(--beta-clay); font-family: Georgia, serif; font-size: 10px; letter-spacing: .2em; }
-.serviceHeading h2 { margin: 0; font-size: clamp(38px, 4.3vw, 62px); line-height: 1.5; }
+.serviceHeading h2 { margin: 0; font-size: clamp(34px, 3.6vw, 52px); line-height: 1.5; }
+.serviceHeading h2 span { display: block; white-space: nowrap; }
 .serviceBody { padding-top: 35px; }
 .serviceBody > p { margin: 0; color: #5f5750; font-size: 14px; line-height: 2.15; }
 .serviceList { margin: 42px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; list-style: none; border-top: 1px solid var(--beta-line); }
