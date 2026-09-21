@@ -3,7 +3,7 @@ import styles from "./beta.module.css";
 
 export const metadata: Metadata = {
   title: "CHECK-IN HOME β版｜自宅に、チェックイン。",
-  description: "内装設計・施工と、完成後のリネンやアメニティ、ホームバー体験をひとつにした自宅ホテル化計画のβ版ページです。",
+  description: "内装設計・施工と、完成後の継続サービスをひとつにした自宅ホテル化計画のβ版ページです。",
 };
 
 const faqs = [
@@ -23,7 +23,6 @@ export default function BetaPage() {
         </a>
         <nav aria-label="β版ナビゲーション">
           <a href="#concept">しくみ</a>
-          <a href="#plans">プラン</a>
           <a href="#faq">よくある質問</a>
           <a href="/">現行版を見る</a>
         </nav>
@@ -156,49 +155,8 @@ export default function BetaPage() {
         </div>
       </section>
 
-      <section className={styles.plans} id="plans">
-        <div className={styles.sectionNumber}>05 / BETA PLANS</div>
-        <div className={styles.headingRow}>
-          <h2>完成後の暮らしまで、<br />住まいに合わせて整える。</h2>
-          <p>現在は少数のファウンディングメンバーと、担当者が直接やり取りしながらサービスを育てるβ運用期間です。</p>
-        </div>
-        <div className={styles.planGrid}>
-          <article className={styles.planCard}>
-            <div className={styles.planTop}><span>PLAN A</span><small>BEDROOM &amp; LIVING</small></div>
-            <h3>ホテル・ステイ・<br />エッセンシャル（β版）</h3>
-            <p>上質なリネンの交換・回収、タオルの定期交換、空間に合うアメニティやシグネチャーの香りをお届けします。</p>
-            <ul><li>高級リネン交換・回収</li><li>バスアメニティ</li><li>ルームフレグランス</li></ul>
-            <div className={styles.price}><small>月額目安</small><strong>¥12,000–25,000</strong></div>
-          </article>
-          <article className={`${styles.planCard} ${styles.planCardDark}`}>
-            <div className={styles.planTop}><span>PLAN B</span><small>HOME BAR</small></div>
-            <h3>ホームバー・マスター・<br />サプライ</h3>
-            <p>ビールサーバーの保守、厳選した樽やリカーキット、バータイムを支える消耗品を定期的に整えます。</p>
-            <ul><li>サーバー保守・ガス交換</li><li>クラフトビール・リカーキット</li><li>バー用品・消耗品</li></ul>
-            <div className={styles.price}><small>月額目安</small><strong>¥18,000–38,000</strong></div>
-          </article>
-        </div>
-        <article className={styles.conciergeCard}>
-          <div className={styles.conciergeIntro}>
-            <div className={styles.planTop}><span>OPTIONAL PLAN</span><small>WEEKLY HOME CARE</small></div>
-            <h3>ホテル・コンシェルジュ・<br />ケア（β版）</h3>
-          </div>
-          <div className={styles.conciergeBody}>
-            <p>週1回を目安に、提携パートナーが部屋と水回りを整えます。ご希望に応じて、ホテルのような当日の夕食や一週間分の作り置きまで。空間だけでなく、帰宅した瞬間の体験まで整える追加プランです。</p>
-            <ul>
-              <li>部屋の清掃・ベッドメイク</li>
-              <li>キッチン・浴室・洗面など水回りの清掃</li>
-              <li>当日の夕食の調理</li>
-              <li>一週間分の作り置き調理</li>
-            </ul>
-            <div className={styles.conciergeStatus}><small>提携パートナー対応</small><strong>内容・頻度を個別に設計</strong></div>
-          </div>
-        </article>
-        <p className={styles.planNote}>※施工費は別途、空間の規模・仕様に応じた個別見積りです。β版の内容・頻度は、ご要望を伺いながら調整します。家事・調理サービスは、提供地域および提携先の対応範囲により内容が異なります。</p>
-      </section>
-
       <section className={styles.flow} id="flow">
-        <div className={styles.sectionNumber}>06 / HOW IT WORKS</div>
+        <div className={styles.sectionNumber}>05 / HOW IT WORKS</div>
         <h2>プロジェクトフロー</h2>
         <ol>
           <li><span>01</span><div><strong>無料相談</strong><p>住まいの写真と、叶えたい過ごし方をお聞かせください。</p></div></li>
@@ -210,7 +168,7 @@ export default function BetaPage() {
 
       <section className={styles.faq} id="faq">
         <div>
-          <div className={styles.sectionNumber}>07 / FAQ</div>
+          <div className={styles.sectionNumber}>06 / FAQ</div>
           <h2>はじめる前に、<br />知っておきたいこと。</h2>
         </div>
         <div className={styles.faqList}>
