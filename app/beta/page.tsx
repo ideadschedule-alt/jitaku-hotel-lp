@@ -144,7 +144,7 @@ export default function BetaPage() {
               <h2><span>完成後も、</span><span>感動は色褪せない。</span></h2>
             </div>
             <div className={styles.serviceBody}>
-              <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。また、定期的に、提携パートナーが部屋と水回りを整えます。ご希望に応じて、ホテルのような当日の夕食や一週間分の作り置きまで色褪せない感動を提供いたします。</p>
+              <p>リネンやタオルの交換、アメニティや香りのお届け、家具レンタル、定期的な清掃まで。空間の美しさと新鮮さを保ちながら、暮らしに合わせて体験を更新します。また、定期的に、提携パートナーが部屋と水回りを整えます。ご希望に応じて、ホテルのような当日の夕食や一週間分の作り置きまで色褪せない感動を提供いたします。現在は少数のファウンディングメンバーと、担当者が直接やり取りしながらサービスを育てるβ運用期間です。</p>
               <div className={styles.carePlanSummary}>
                 <article>
                   <small>BEDROOM &amp; LIVING</small>
@@ -164,8 +164,7 @@ export default function BetaPage() {
 
       <section className={styles.principles}>
         <div className={styles.sectionNumber}>05 / DESIGN PRINCIPLES</div>
-        <div className={styles.headingRow}>
-          <h2>ホテルの空気は、<br />感覚ではなく設計できる。</h2>
+        <div className={styles.principlesIntro}>
           <p>色を絞り、生活感を隠し、光を分散する。住まいとしての使いやすさを残しながら、静かな非日常をつくります。</p>
         </div>
         <div className={styles.principleList}>

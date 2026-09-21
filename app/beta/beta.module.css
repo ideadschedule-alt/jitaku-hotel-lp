@@ -133,6 +133,8 @@
 .flow { padding: 130px 8vw; }
 .headingRow { max-width: 1220px; margin: 65px auto 80px; display: grid; grid-template-columns: 1fr 390px; gap: 8vw; align-items: end; }
 .headingRow > p { margin: 0 0 8px; font-size: 14px; line-height: 2.05; }
+.principlesIntro { max-width: 1220px; margin: 65px auto 80px; display: flex; justify-content: flex-end; }
+.principlesIntro > p { width: 390px; margin: 0 0 8px; font-size: 14px; line-height: 2.05; }
 .principleList { max-width: 1220px; margin: 0 auto; display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid var(--beta-line); }
 .principleList article { min-height: 270px; padding: 30px 32px 25px 0; border-right: 1px solid var(--beta-line); }
 .principleList article + article { padding-left: 32px; }
@@ -279,6 +281,8 @@
   .feelingConclusion { margin-top: 80px; padding-top: 55px; gap: 35px; }
   .discoverGrid,
   .headingRow { margin-top: 45px; gap: 42px; }
+  .principlesIntro { margin-top: 45px; }
+  .principlesIntro > p { width: auto; }
   .discover h2,
   .principles h2,
   .plans h2,
