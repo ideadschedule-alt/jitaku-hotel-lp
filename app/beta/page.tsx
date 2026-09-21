@@ -81,8 +81,12 @@ export default function BetaPage() {
         <div className={styles.discoverGrid}>
           <h2>なぜ、その感動は<br />薄れていくのか。</h2>
           <div className={styles.bodyCopy}>
-            <p>リノベーションした瞬間は、たしかに感動した。でも、住み始めて半年もすると、いつもの部屋に戻っていませんか。</p>
-            <p>これまでの内装工事は、完成した瞬間に業者との関係が終わる「フロー型」が中心でした。美しい空間を維持し、体験を更新する仕組みは、最初から用意されていなかったのです。</p>
+            <p className={styles.fixedFourLines}>
+              <span>リノベーションした瞬間は、たしかに感動した。</span>
+              <span>でも半年もすると、いつもの部屋に戻っていく。</span>
+              <span>これまでの内装工事は、完成で関係が終わる「フロー型」。</span>
+              <span>空間を保ち、体験を更新する仕組みがなかったのです。</span>
+            </p>
             <p className={styles.pullQuote}>「感動が続かない」のは、<br />あなたのせいではありません。</p>
           </div>
         </div>
