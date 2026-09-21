@@ -77,6 +77,7 @@
 .archContent .overlineDark { color: #bba794; }
 .archContent h2 { margin: 0 0 24px; font-size: clamp(38px, 4.1vw, 62px); line-height: 1.45; }
 .archLead { margin: 0 0 42px; max-width: 560px; color: #cfc4b8; font-size: 14px; line-height: 2.1; }
+.maintenanceLine { margin: 0 0 42px; padding: 20px 0; border-top: 1px solid rgba(182,154,101,.7); border-bottom: 1px solid rgba(182,154,101,.7); color: #f3e9da; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(18px, 1.7vw, 24px); line-height: 1.75; letter-spacing: .035em; }
 .floors { border-top: 1px solid rgba(255,255,255,.2); }
 .floors article { display: grid; grid-template-columns: 70px 1fr; gap: 24px; padding: 24px 0; border-bottom: 1px solid rgba(255,255,255,.2); }
 .floors article > span { width: 48px; height: 48px; display: grid; place-items: center; border: 1px solid var(--beta-clay); color: #d38d7e; font-family: Georgia, serif; }

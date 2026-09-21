@@ -70,6 +70,7 @@ export default function BetaPage() {
           <p className={styles.overlineDark}>THE HOME AS A TWO-STORY EXPERIENCE</p>
           <h2>工事を「1階」で、<br />終わらせない。</h2>
           <p className={styles.archLead}>空間をつくるハードと、体験を保ち続けるソフト。ふたつを、最初からひとつの商品として設計します。</p>
+          <p className={styles.maintenanceLine}>ホテルの空気感は、「メンテナンス」があってこそ維持される</p>
           <div className={styles.floors}>
             <article>
               <span>2F</span>
