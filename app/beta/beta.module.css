@@ -58,6 +58,13 @@
 .textLink span { margin-left: 12px; }
 .heroFoot { position: absolute; z-index: 2; right: 32px; bottom: 32px; margin: 0; writing-mode: vertical-rl; font-family: Georgia, serif; font-size: 8px; letter-spacing: .2em; opacity: .6; }
 
+.aspiration { min-height: 72vh; padding: 120px 8vw; display: grid; place-items: center; background: #bfa995; color: #211e1a; text-align: center; }
+.aspiration > div { max-width: 980px; }
+.aspirationOverline { margin: 0 0 36px; color: #765f50; font-family: Georgia, serif; font-size: 10px; letter-spacing: .24em; }
+.aspiration h2 { margin: 0; font-size: clamp(40px, 5.2vw, 74px); font-weight: 400; line-height: 1.48; letter-spacing: .03em; }
+.aspiration h2 span { display: block; white-space: nowrap; }
+.aspiration > div > p:last-child { margin: 38px 0 0; color: #4e4239; font-size: 15px; line-height: 2.1; }
+
 .sectionNumber { font-family: Georgia, serif; font-size: 10px; letter-spacing: .22em; color: #7e6b5c; }
 .discover { padding: 135px 8vw 150px; }
 .discoverGrid { max-width: 1220px; margin: 68px auto 0; display: grid; grid-template-columns: 1.15fr .85fr; gap: 10vw; }
@@ -266,6 +273,10 @@
   .primaryButton,
   .secondaryButton { width: 100%; min-width: 0; }
   .heroFoot { display: none; }
+  .aspiration { min-height: 620px; padding: 100px 25px; }
+  .aspiration h2 { font-size: 36px; line-height: 1.55; }
+  .aspiration h2 span { white-space: normal; }
+  .aspiration > div > p:last-child { margin-top: 28px; font-size: 14px; }
   .discover,
   .feeling,
   .principles,
