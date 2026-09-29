@@ -77,6 +77,17 @@ export default function BetaPage() {
         </div>
       </section>
 
+      <section className={styles.customerVoice} id="customer-voice">
+        <div>
+          <p className={styles.customerVoiceLabel}>VOICE FROM HOMEOWNERS</p>
+          <blockquote>
+            <span>「でも、リニューアルしても、</span>
+            <span>その感動って、最初だけですよね？」</span>
+          </blockquote>
+          <p className={styles.customerVoiceNote}>お客様からいただいた、率直なひと言。</p>
+        </div>
+      </section>
+
 
       <section className={styles.discover} id="discover">
         <div className={styles.sectionNumber}>ISSUE 02 / WHY THE FEELING FADES</div>

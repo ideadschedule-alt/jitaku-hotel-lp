@@ -94,6 +94,12 @@
 .senseGrid span { color: #936f5e; font-family: Georgia, serif; font-size: 10px; letter-spacing: .18em; }
 .senseGrid h3 { margin: 28px 0 18px; font-size: 24px; font-weight: 400; }
 .senseGrid p { margin: 0; color: #655d55; font-size: 14px; line-height: 2; }
+.customerVoice { min-height: 76vh; padding: 120px 8vw; display: grid; place-items: center; background: var(--beta-ink); color: #f4ede4; text-align: center; }
+.customerVoice > div { width: min(1080px, 100%); }
+.customerVoiceLabel { margin: 0 0 48px; color: #bfa995; font-family: Georgia, serif; font-size: 10px; letter-spacing: .24em; }
+.customerVoice blockquote { margin: 0; font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(38px, 4.8vw, 68px); font-weight: 400; line-height: 1.55; letter-spacing: .03em; }
+.customerVoice blockquote span { display: block; white-space: nowrap; }
+.customerVoiceNote { margin: 46px 0 0; color: #b9ada2; font-size: 14px; letter-spacing: .08em; }
 .feelingConclusion { max-width: 1220px; margin: 120px auto 0; padding-top: 72px; display: grid; grid-template-columns: 1.15fr .85fr; gap: 10vw; border-top: 1px solid var(--beta-line); }
 .feelingConclusion h3 { margin: 0; font-size: clamp(38px, 4.7vw, 68px); line-height: 1.5; letter-spacing: .03em; }
 .feelingAnswer { padding-top: 34px; }
@@ -277,6 +283,11 @@
   .aspiration h2 { font-size: 36px; line-height: 1.55; }
   .aspiration h2 span { white-space: normal; }
   .aspiration > div > p:last-child { margin-top: 28px; font-size: 14px; }
+  .customerVoice { min-height: 620px; padding: 100px 25px; }
+  .customerVoiceLabel { margin-bottom: 38px; }
+  .customerVoice blockquote { font-size: 34px; line-height: 1.65; }
+  .customerVoice blockquote span { white-space: normal; }
+  .customerVoiceNote { margin-top: 34px; font-size: 13px; }
   .discover,
   .feeling,
   .principles,
