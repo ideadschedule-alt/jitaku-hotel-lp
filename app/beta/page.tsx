@@ -103,14 +103,24 @@ export default function BetaPage() {
             <p className={styles.pullQuote}>感動が続かないのは、<br />続ける仕組みがないからです。</p>
           </div>
         </div>
-        <div className={styles.feelingConclusion}>
-          <div>
-            <p className={styles.feelingKicker}>THE ANSWER</p>
-            <h3>ふたつの課題は、<br />解決できる。</h3>
+      </section>
+
+      <section className={styles.answerBridge} aria-labelledby="answer-heading">
+        <div className={styles.answerInner}>
+          <p className={styles.answerLabel}>THE ANSWER</p>
+          <div className={styles.answerLead}>
+            <h2 id="answer-heading">ふたつの課題は、<br />解決できる。</h2>
+            <p>感動が生まれる空間と、その感動を育て続ける体験。<br />ふたつを、最初からひとつの商品として設計します。</p>
           </div>
-          <div className={styles.feelingAnswer}>
-            <p>ワクワクは、五感と気持ちが切り替わるように、空間と体験が整えられているから生まれます。感動が薄れるのは、その状態を保ち、更新し続ける仕組みがないからです。</p>
-            <strong>感動が生まれる理由をデザインし、<br />続く仕組みまでつくる。</strong>
+          <div className={styles.answerPillars}>
+            <article>
+              <span>01 / DESIGN &amp; BUILD</span>
+              <h3>心を動かす理由を、<br />デザインする。</h3>
+            </article>
+            <article>
+              <span>02 / CONTINUING CARE</span>
+              <h3>完成後の感動を、<br />育て続ける。</h3>
+            </article>
           </div>
         </div>
       </section>

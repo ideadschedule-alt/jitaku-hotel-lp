@@ -100,11 +100,17 @@
 .customerVoice blockquote { margin: 0; font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(38px, 4.8vw, 68px); font-weight: 400; line-height: 1.55; letter-spacing: .03em; }
 .customerVoice blockquote span { display: block; white-space: nowrap; }
 .customerVoiceNote { margin: 46px 0 0; color: #b9ada2; font-size: 14px; letter-spacing: .08em; }
-.feelingConclusion { max-width: 1220px; margin: 120px auto 0; padding-top: 72px; display: grid; grid-template-columns: 1.15fr .85fr; gap: 10vw; border-top: 1px solid var(--beta-line); }
-.feelingConclusion h3 { margin: 0; font-size: clamp(38px, 4.7vw, 68px); line-height: 1.5; letter-spacing: .03em; }
-.feelingAnswer { padding-top: 34px; }
-.feelingAnswer p { margin: 0 0 36px; font-size: 15px; line-height: 2.15; }
-.feelingAnswer strong { color: var(--beta-clay); font-family: "Yu Mincho", serif; font-size: 24px; font-weight: 400; line-height: 1.7; }
+.answerBridge { padding: 135px 8vw 130px; background: var(--beta-sand); }
+.answerInner { max-width: 1220px; margin: 0 auto; }
+.answerLabel { margin: 0 0 58px; color: #765f50; font-family: Georgia, serif; font-size: 10px; letter-spacing: .24em; }
+.answerLead { display: grid; grid-template-columns: 1.05fr .95fr; gap: 10vw; align-items: end; }
+.answerLead h2 { margin: 0; font-size: clamp(38px, 4.7vw, 68px); line-height: 1.5; letter-spacing: .03em; }
+.answerLead > p { margin: 0 0 12px; color: #4f433b; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 17px; line-height: 2.1; }
+.answerPillars { margin-top: 88px; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid rgba(33,30,26,.28); border-bottom: 1px solid rgba(33,30,26,.28); }
+.answerPillars article { min-height: 210px; padding: 38px 42px 42px 0; }
+.answerPillars article + article { padding-left: 42px; border-left: 1px solid rgba(33,30,26,.28); }
+.answerPillars span { color: #765f50; font-family: Georgia, serif; font-size: 10px; letter-spacing: .2em; }
+.answerPillars h3 { margin: 36px 0 0; font-size: clamp(27px, 2.7vw, 40px); line-height: 1.55; letter-spacing: .03em; }
 
 
 .architecture { position: relative; min-height: 880px; display: flex; align-items: center; justify-content: center; color: #f4efe7; overflow: hidden; }
@@ -235,12 +241,13 @@
   .heroContent { margin-left: 7vw; }
   .discoverGrid,
   .feelingIntro,
-  .feelingConclusion,
+  .answerLead,
   .headingRow,
   .faq { grid-template-columns: 1fr; }
   .feelingNarrative { margin-top: 42px; padding-top: 0; }
   .feelingNarrative p span { display: inline; white-space: normal; }
   .senseGrid { grid-template-columns: 1fr 1fr; }
+  .answerLead { gap: 42px; }
   .architecture { min-height: 820px; }
   .archImage { min-height: 0; }
   .archContent { width: min(620px, 74vw); margin: 0 7vw 0 auto; padding: 100px 0 80px; }
@@ -300,7 +307,16 @@
   .senseGrid article > img { height: 190px; padding: 20px 22px 0; }
   .senseCopy { padding: 28px 24px; }
   .senseGrid h3 { margin-top: 28px; }
-  .feelingConclusion { margin-top: 80px; padding-top: 55px; gap: 35px; }
+  .answerBridge { padding: 95px 25px 90px; }
+  .answerLabel { margin-bottom: 40px; }
+  .answerLead { grid-template-columns: 1fr; gap: 34px; }
+  .answerLead h2 { font-size: 34px; }
+  .answerLead > p { font-size: 15px; }
+  .answerLead > p br { display: none; }
+  .answerPillars { margin-top: 60px; grid-template-columns: 1fr; }
+  .answerPillars article { min-height: 0; padding: 32px 0 34px; }
+  .answerPillars article + article { padding-left: 0; border-top: 1px solid rgba(33,30,26,.28); border-left: 0; }
+  .answerPillars h3 { margin-top: 24px; font-size: 27px; }
   .discoverGrid,
   .headingRow { margin-top: 45px; gap: 42px; }
   .principlesIntro { margin-top: 45px; }
@@ -311,8 +327,6 @@
   .flow h2,
   .faq h2 { font-size: 34px; }
   .bodyCopy .pullQuote { font-size: 20px; }
-  .feelingConclusion h3 { font-size: 34px; }
-  .feelingAnswer strong { font-size: 20px; }
   .fixedFourLines span { display: inline; white-space: normal; }
   .architecture { min-height: 760px; align-items: flex-end; }
   .archImage { min-height: 0; background-image: linear-gradient(90deg, rgba(28,22,18,.68), rgba(28,22,18,.34)), url('/images/living-room-signature.png'); background-position: 45% center; }
