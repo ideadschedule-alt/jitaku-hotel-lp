@@ -112,7 +112,7 @@
 .archContent { position: relative; z-index: 2; width: min(920px, 84vw); margin: 0 auto; padding: 105px 3vw 90px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
 .archContent .sectionNumber { color: #bba794; margin-bottom: 55px; }
 .archContent .overlineDark { color: #bba794; font-size: 15px; line-height: 2.15; letter-spacing: .08em; }
-.archContent h2 { margin: 0 0 24px; font-size: clamp(38px, 4.1vw, 62px); line-height: 1.45; }
+.archContent h2 { margin: 0 0 24px; font-size: clamp(24px, 6vw, 62px); line-height: 1.45; white-space: nowrap; }
 .answerCaption { margin: 0 0 24px; max-width: 760px; color: #f0e8df; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 15px; line-height: 2.15; }
 .renovationDetail { padding: 130px 8vw 145px; background: var(--beta-paper); }
 .renovationInner { max-width: 1220px; margin: 0 auto; }
@@ -317,7 +317,7 @@
   .architecture { min-height: 760px; align-items: flex-end; }
   .archImage { min-height: 0; background-image: linear-gradient(90deg, rgba(28,22,18,.68), rgba(28,22,18,.34)), url('/images/living-room-signature.png'); background-position: 45% center; }
   .archContent { width: auto; margin: 0 24px; padding: 110px 0 70px; }
-  .archContent h2 { font-size: 36px; }
+  .archContent h2 { font-size: 24px; }
   .renovationDetail { padding: 90px 25px; }
   .renovationInner > .sectionNumber { margin-bottom: 48px; }
   .renovationHeading h2 { font-size: 34px; }
