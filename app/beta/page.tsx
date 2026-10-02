@@ -48,7 +48,12 @@ export default function BetaPage() {
         <div>
           <p className={styles.aspirationOverline}>FROM STAY TO EVERYDAY</p>
           <p className={styles.aspirationQuestion}>ホテル暮らしに、惹かれませんか？</p>
-          <p className={styles.aspirationCopy}>旅先で出会った、心がほどける静けさに感動した記憶。<br />美しさと心地よさが毎日帰る場所にあったなら、暮らしはどれほど深い充実感に満たされるでしょう。</p>
+          <p className={styles.aspirationCopy}>
+            <span>旅先で出会った、心がほどける静けさに感動した記憶。</span>
+            <span>扉を開けた瞬間の香り、やわらかな光、丁寧に整えられたしつらえ。</span>
+            <span>その美しさと心地よさが、毎日帰る自宅にあったなら。</span>
+            <span>慌ただしい一日の終わりにも、ふっと気持ちが切り替わり、暮らしは今より深い安らぎと充実感に満たされていくのではないでしょうか。</span>
+          </p>
         </div>
       </section>
 

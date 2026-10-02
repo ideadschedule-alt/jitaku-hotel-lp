@@ -61,7 +61,8 @@
 .aspiration { min-height: 62vh; padding: 120px 8vw; display: grid; place-items: center; background: #c6b19d; color: #211e1a; text-align: center; }
 .aspiration > div { width: 100%; max-width: 980px; }
 .aspirationOverline { margin: 0 0 36px; color: #765f50; font-family: Georgia, serif; font-size: 10px; letter-spacing: .24em; }
-.aspirationCopy { width: min(760px, 100%); margin: 28px auto 0; color: #4e4239; font-size: 15px; line-height: 2.1; }
+.aspirationCopy { width: min(940px, 100%); margin: 28px auto 0; color: #4e4239; font-size: 15px; line-height: 2.1; }
+.aspirationCopy span { display: block; white-space: nowrap; }
 .aspirationQuestion { width: min(720px, 100%); box-sizing: border-box; margin: 0 auto; padding: 32px 48px; border: 1px solid rgba(33,30,26,.28); color: #3f352e; font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(21px, 2.2vw, 30px); line-height: 1.75; letter-spacing: .04em; }
 .aspirationPromise { position: relative; min-height: 58vh; padding: 120px 8vw; display: grid; place-items: center; overflow: hidden; background: radial-gradient(circle at 50% 120%, rgba(182,154,101,.24), transparent 44%), linear-gradient(135deg, #2d2521 0%, #44362e 54%, #29221f 100%); color: #f4ede4; text-align: center; }
 .aspirationPromise::before,
@@ -296,6 +297,7 @@
   .heroFoot { display: none; }
   .aspiration { min-height: 560px; padding: 90px 25px; }
   .aspirationCopy { margin: 22px auto 0; font-size: 14px; }
+  .aspirationCopy span { white-space: normal; }
   .aspirationQuestion { margin: 0 auto; padding: 24px 20px; font-size: 19px; }
   .aspirationPromise { min-height: 520px; padding: 90px 25px; }
   .aspirationPromise::before { left: 25px; }
