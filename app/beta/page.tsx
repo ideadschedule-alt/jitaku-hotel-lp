@@ -138,19 +138,9 @@ export default function BetaPage() {
         </div>
       </section>
 
-      <section className={styles.architecture} id="concept">
-        <div className={styles.archImage} role="img" aria-label="落ち着いた木質空間と造作収納を備えたリビング" />
-        <div className={styles.archContent}>
-          <div className={styles.sectionNumber}>02 / THE ANSWER</div>
-          <p className={styles.overlineDark}>ふたつの課題に、ひとつの答えを。</p>
-          <h2>工事だけでは、終わりません。</h2>
-          <p className={styles.answerCaption}>Check-in Homeは空間の完成をゴールとせず、そこから生まれる体験を継続するためのサポートまでを設計します。</p>
-        </div>
-      </section>
-
       <section className={styles.renovationDetail} id="renovation">
         <div className={styles.renovationInner}>
-          <div className={styles.sectionNumber}>03 / DESIGN &amp; BUILD</div>
+          <div className={styles.sectionNumber}>02 / DESIGN &amp; BUILD</div>
           <div className={styles.renovationGrid}>
             <div className={styles.renovationHeading}>
               <p className={styles.serviceOverline}>INTERIOR RENOVATION</p>
@@ -173,7 +163,7 @@ export default function BetaPage() {
 
       <section className={`${styles.serviceDetail} ${styles.careDetail}`} id="maintenance">
         <div className={styles.serviceCopy}>
-          <div className={styles.sectionNumber}>04 / CONTINUING CARE</div>
+          <div className={styles.sectionNumber}>03 / CONTINUING CARE</div>
           <div className={styles.serviceGrid}>
             <div className={styles.serviceHeading}>
               <p className={styles.serviceOverline}>AFTERCARE &amp; MAINTENANCE</p>
@@ -195,6 +185,16 @@ export default function BetaPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className={styles.architecture} id="concept">
+        <div className={styles.archImage} role="img" aria-label="落ち着いた木質空間と造作収納を備えたリビング" />
+        <div className={styles.archContent}>
+          <div className={styles.sectionNumber}>04 / THE ANSWER</div>
+          <p className={styles.overlineDark}>ふたつの課題に、ひとつの答えを。</p>
+          <h2>工事だけでは、終わりません。</h2>
+          <p className={styles.answerCaption}>Check-in Homeは空間の完成をゴールとせず、そこから生まれる体験を継続するためのサポートまでを設計します。</p>
         </div>
       </section>
 
