@@ -212,7 +212,7 @@ export default function BetaPage() {
       <section className={styles.faq} id="faq">
         <div>
           <div className={styles.sectionNumber}>06 / FAQ</div>
-          <h2>はじめる前に、<br />知っておきたいこと。</h2>
+          <h2><span>はじめる前に、</span><span>知っておきたいこと。</span></h2>
         </div>
         <div className={styles.faqList}>
           {faqs.map(([question, answer], index) => (

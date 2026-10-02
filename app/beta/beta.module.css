@@ -218,8 +218,10 @@
 .flow strong { font-family: "Yu Mincho", serif; font-size: 20px; font-weight: 400; }
 .flow li p { color: #675f58; font-size: 12px; line-height: 2; }
 
-.faq { padding: 130px 8vw; display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; background: #cbc2b7; }
+.faq { padding: 130px 8vw; display: grid; grid-template-columns: minmax(440px, .9fr) minmax(0, 1.1fr); gap: 7vw; background: #cbc2b7; }
 .faq .sectionNumber { margin-bottom: 65px; }
+.faq h2 { writing-mode: horizontal-tb; font-size: clamp(36px, 4vw, 60px); line-height: 1.65; }
+.faq h2 span { display: block; white-space: nowrap; }
 .faqList { border-top: 1px solid rgba(33,30,26,.4); }
 .faqList details { border-bottom: 1px solid rgba(33,30,26,.4); }
 .faqList summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 45px 1fr 24px; align-items: center; gap: 16px; padding: 25px 0; font-size: 14px; }
@@ -227,7 +229,7 @@
 .faqList summary span { color: var(--beta-clay); font-family: Georgia, serif; font-size: 10px; }
 .faqList summary i { font-style: normal; font-size: 20px; transition: transform .2s; }
 .faqList details[open] summary i { transform: rotate(45deg); }
-.faqList details p { margin: 0; padding: 0 40px 28px 61px; color: #5c554e; font-size: 13px; line-height: 2; }
+.faqList details p { display: block; margin: 0; padding: 0 40px 28px 61px; color: #5c554e; font-size: 13px; line-height: 2; }
 
 .message { min-height: 700px; display: grid; grid-template-columns: 1.1fr .9fr; background: var(--beta-ink); color: #f4ede4; }
 .messageImage { min-height: 650px; background: linear-gradient(rgba(35,28,24,.18),rgba(35,28,24,.35)), url('/images/bedroom-detail.jpg') center / cover no-repeat; }
@@ -338,7 +340,7 @@
   .principles h2,
   .plans h2,
   .flow h2,
-  .faq h2 { font-size: 34px; }
+  .faq h2 { font-size: 31px; }
   .pullQuote { margin-top: 58px; padding: 32px 20px; font-size: 24px; }
   .fixedFourLines span { display: inline; white-space: normal; }
   .architecture { min-height: 760px; align-items: flex-end; }
