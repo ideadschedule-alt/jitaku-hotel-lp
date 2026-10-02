@@ -85,7 +85,7 @@
 .bodyCopy { padding-top: 8px; }
 .bodyCopy > p { margin: 0 0 28px; font-size: 15px; line-height: 2.15; }
 .fixedFourLines span { display: block; white-space: nowrap; }
-.pullQuote { width: min(760px, 100%); margin: 88px auto 0; padding-top: 52px; border-top: 1px solid var(--beta-line); color: var(--beta-clay); text-align: center; font-family: "Yu Mincho", serif; font-size: clamp(24px, 2.4vw, 34px); line-height: 1.75; }
+.pullQuote { width: min(860px, 100%); box-sizing: border-box; margin: 88px auto 0; padding: 44px 52px; border: 1px solid var(--beta-line); color: var(--beta-clay); text-align: center; font-family: "Yu Mincho", serif; font-size: clamp(28px, 3vw, 42px); line-height: 1.7; }
 .feeling { padding: 150px 8vw 140px; background: #f0e8dd; }
 .feelingIntro { max-width: 1220px; margin: 0 auto; display: grid; grid-template-columns: 1.08fr .92fr; gap: 10vw; align-items: start; }
 .feelingKicker { margin: 0 0 26px; color: #8f6f5f; font-family: Georgia, serif; font-size: 10px; letter-spacing: .24em; }
@@ -341,7 +341,7 @@
   .plans h2,
   .flow h2,
   .faq h2 { font-size: 34px; }
-  .pullQuote { margin-top: 58px; padding-top: 40px; font-size: 20px; }
+  .pullQuote { margin-top: 58px; padding: 32px 20px; font-size: 24px; }
   .fixedFourLines span { display: inline; white-space: normal; }
   .architecture { min-height: 760px; align-items: flex-end; }
   .archImage { min-height: 0; background-image: linear-gradient(90deg, rgba(28,22,18,.68), rgba(28,22,18,.34)), url('/images/living-room-signature.png'); background-position: 45% center; }
