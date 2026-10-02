@@ -107,14 +107,15 @@ export default function BetaPage() {
           <h2>なぜ、その感動は<br />薄れていくのか。</h2>
           <div className={styles.bodyCopy}>
             <p className={styles.fixedFourLines}>
-              <span>住まいが美しく整った瞬間、</span>
+              <span>空間が美しく整った瞬間、</span>
               <span>心がほどけるような、新しい感動が生まれます。</span>
-              <span>けれど、時を重ねるほど、その新鮮さは少しずつ日常へ。</span>
-              <span>完成時の感動を、暮らしの中で育て続ける仕組みが必要です。</span>
+              <span>けれど、日々の気配が静かに積もるうちに、</span>
+              <span>その鮮やかさは、いつしか暮らしの風景へ溶けていきます。</span>
+              <span>完成時の感動を、日常の中で育て続ける仕組みが必要です。</span>
             </p>
-            <p className={styles.pullQuote}>感動が続かないのは、<br />続ける仕組みがないからです。</p>
           </div>
         </div>
+        <p className={styles.pullQuote}>感動が続かないのは、<br />続ける仕組みがないからです。</p>
       </section>
 
       <section className={styles.answerBridge} aria-labelledby="answer-heading">
