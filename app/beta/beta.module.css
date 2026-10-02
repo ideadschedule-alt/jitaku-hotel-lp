@@ -63,8 +63,8 @@
 .aspirationOverline { margin: 0 0 36px; color: #765f50; font-family: Georgia, serif; font-size: 10px; letter-spacing: .24em; }
 .aspiration h2 { margin: 0; font-size: clamp(40px, 5.2vw, 74px); font-weight: 400; line-height: 1.48; letter-spacing: .03em; }
 .aspiration h2 span { display: block; white-space: nowrap; }
-.aspirationCopy { margin: 38px 0 0; color: #4e4239; font-size: 15px; line-height: 2.1; }
-.aspirationQuestion { width: min(720px, 100%); box-sizing: border-box; margin: 0 auto 56px; padding: 32px 48px; border: 1px solid rgba(33,30,26,.28); color: #3f352e; font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(21px, 2.2vw, 30px); line-height: 1.75; letter-spacing: .04em; }
+.aspirationCopy { width: min(760px, 100%); margin: 24px auto 56px; color: #4e4239; font-size: 15px; line-height: 2.1; }
+.aspirationQuestion { width: min(720px, 100%); box-sizing: border-box; margin: 0 auto; padding: 32px 48px; border: 1px solid rgba(33,30,26,.28); color: #3f352e; font-family: "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif; font-size: clamp(21px, 2.2vw, 30px); line-height: 1.75; letter-spacing: .04em; }
 
 .sectionNumber { font-family: Georgia, serif; font-size: 10px; letter-spacing: .22em; color: #7e6b5c; }
 .discover { padding: 135px 8vw 150px; }
@@ -290,8 +290,8 @@
   .aspiration { min-height: 620px; padding: 100px 25px; }
   .aspiration h2 { font-size: 36px; line-height: 1.55; }
   .aspiration h2 span { white-space: normal; }
-  .aspirationCopy { margin-top: 28px; font-size: 14px; }
-  .aspirationQuestion { margin: 0 auto 38px; padding: 24px 20px; font-size: 19px; }
+  .aspirationCopy { margin: 20px auto 42px; font-size: 14px; }
+  .aspirationQuestion { margin: 0 auto; padding: 24px 20px; font-size: 19px; }
   .customerVoice { min-height: 620px; padding: 100px 25px; }
   .customerVoiceLabel { margin-bottom: 38px; }
   .customerVoice blockquote { font-size: 34px; line-height: 1.65; }
