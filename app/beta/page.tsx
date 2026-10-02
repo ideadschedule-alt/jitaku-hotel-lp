@@ -47,9 +47,9 @@ export default function BetaPage() {
       <section className={styles.aspiration}>
         <div>
           <p className={styles.aspirationOverline}>FROM STAY TO EVERYDAY</p>
+          <p className={styles.aspirationQuestion}>ホテル暮らしに、惹かれませんか？</p>
           <h2><span>憧れのホテル暮らしを、</span><span>自宅で実現しませんか？</span></h2>
           <p className={styles.aspirationCopy}>旅先で出会った、心がほどける静けさを。<br />美しさも心地よさも、毎日帰る場所へ。</p>
-          <p className={styles.aspirationQuestion}>では、なぜ私たちは、<br />ホテル暮らしに惹かれるのでしょうか。</p>
         </div>
       </section>
 
