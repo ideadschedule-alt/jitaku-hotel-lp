@@ -122,7 +122,7 @@ export default function BetaPage() {
         <div className={styles.answerInner}>
           <p className={styles.answerLabel}>THE ANSWER</p>
           <div className={styles.answerLead}>
-            <h2 id="answer-heading">ふたつの課題は、<br />解決できる。</h2>
+            <h2 id="answer-heading">課題は解決できます。</h2>
             <p>感動が生まれる空間と、その感動を育て続ける体験。<br />ふたつを、最初からひとつの商品として設計します。</p>
           </div>
           <div className={styles.answerPillars}>
