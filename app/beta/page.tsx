@@ -49,6 +49,12 @@ export default function BetaPage() {
           <p className={styles.aspirationOverline}>FROM STAY TO EVERYDAY</p>
           <p className={styles.aspirationQuestion}>ホテル暮らしに、惹かれませんか？</p>
           <p className={styles.aspirationCopy}>旅先で出会った、心がほどける静けさに感動した記憶。<br />美しさと心地よさが毎日帰る場所にあったなら、暮らしはどれほど深い充実感に満たされるでしょう。</p>
+        </div>
+      </section>
+
+      <section className={styles.aspirationPromise} aria-label="憧れのホテル暮らしを自宅で実現する提案">
+        <div>
+          <p>THE PROPOSAL</p>
           <h2><span>憧れのホテル暮らしを、</span><span>自宅で実現しませんか？</span></h2>
         </div>
       </section>
