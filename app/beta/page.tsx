@@ -229,8 +229,8 @@ export default function BetaPage() {
         <div className={styles.messageCopy}>
           <p className={styles.overline}>PROJECT MESSAGE</p>
           <h2 className={styles.messageHeading}><span>お引き渡しが</span><span>ゴールではございません</span></h2>
-          <p>内装の仕事を続けるなかで、いつも歯がゆかったのは、工事が終わった瞬間にお客様との関係も終わってしまうことでした。</p>
-          <p>本当に大切なのは、そこから住まい手がどんな日々を過ごすか。自宅ホテル化計画は、その問いへの私たちなりの答えです。</p>
+          <p>空間が完成し、お引き渡しを迎えた日から、本当の暮らしが始まります。美しさや心地よさを一度きりの感動で終わらせないために、私たちはその後の日々にも寄り添います。</p>
+          <p>リネンや香り、清掃やメンテナンスまで。暮らしの変化に合わせて体験を整え続けること。それが、自宅ホテル化計画の考える「完成」です。</p>
         </div>
       </section>
 
