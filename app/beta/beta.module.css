@@ -235,6 +235,8 @@
 .messageImage { min-height: 650px; background: linear-gradient(rgba(35,28,24,.12),rgba(35,28,24,.28)), url('/images/modern-luxury-bedroom.png') center / cover no-repeat; }
 .messageCopy { padding: 110px 7vw; display: flex; flex-direction: column; justify-content: center; }
 .messageCopy h2 { margin: 0 0 35px; font-size: clamp(36px, 4vw, 58px); line-height: 1.5; }
+.messageCopy .messageHeading { font-size: clamp(32px, 2.9vw, 42px); letter-spacing: -.04em; }
+.messageHeading span { display: block; white-space: nowrap; }
 .messageCopy > p:not(.overline) { margin: 0 0 22px; color: #cbbfb4; font-size: 14px; line-height: 2.1; }
 
 .cta { padding: 145px 22px; text-align: center; background: #f5f1ea; }
@@ -380,6 +382,7 @@
   .messageImage { min-height: 420px; }
   .messageCopy { padding: 80px 25px; }
   .messageCopy h2 { font-size: 34px; }
+  .messageCopy .messageHeading { font-size: 28px; }
   .cta { padding: 100px 25px; }
   .cta h2 { font-size: 36px; }
   .ctaActions { flex-direction: column; }

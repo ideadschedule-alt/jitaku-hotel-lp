@@ -228,7 +228,7 @@ export default function BetaPage() {
         <div className={styles.messageImage} role="img" aria-label="落ち着いた間接照明に包まれたモダンラグジュアリーホテルの寝室" />
         <div className={styles.messageCopy}>
           <p className={styles.overline}>PROJECT MESSAGE</p>
-          <h2>工事が終わった瞬間を、<br />ゴールにしたくない。</h2>
+          <h2 className={styles.messageHeading}><span>お引き渡しが</span><span>ゴールではございません</span></h2>
           <p>内装の仕事を続けるなかで、いつも歯がゆかったのは、工事が終わった瞬間にお客様との関係も終わってしまうことでした。</p>
           <p>本当に大切なのは、そこから住まい手がどんな日々を過ごすか。自宅ホテル化計画は、その問いへの私たちなりの答えです。</p>
         </div>
