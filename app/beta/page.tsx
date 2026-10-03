@@ -193,7 +193,7 @@ export default function BetaPage() {
         <div className={styles.archContent}>
           <div className={styles.sectionNumber}>04 / THE ANSWER</div>
           <p className={styles.overlineDark}>ふたつの課題に、ひとつの答えを。</p>
-          <h2>工事だけでは、終わりません。</h2>
+          <h2 className={styles.archHeading}><span>工事だけでは、</span><span>終わりません。</span></h2>
           <p className={styles.answerCaption}>Check-in Homeは空間の完成をゴールとせず、そこから生まれる体験を継続するためのサポートまでを設計します。</p>
         </div>
       </section>

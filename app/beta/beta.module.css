@@ -122,13 +122,14 @@
 .answerPillars h3 { margin: 36px 0 0; font-size: clamp(27px, 2.7vw, 40px); line-height: 1.55; letter-spacing: .03em; }
 
 
-.architecture { position: relative; min-height: 880px; display: flex; align-items: center; justify-content: center; color: #f4efe7; overflow: hidden; }
-.archImage { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(28,22,18,.05) 0%, rgba(28,22,18,.18) 43%, rgba(28,22,18,.76) 100%), url('/images/living-room-signature.png') center / cover no-repeat; transform: scale(1.01); }
-.archContent { position: relative; z-index: 2; width: min(920px, 84vw); margin: 0 auto; padding: 105px 3vw 90px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
-.archContent .sectionNumber { color: #bba794; margin-bottom: 55px; }
-.archContent .overlineDark { color: #bba794; font-size: 15px; line-height: 2.15; letter-spacing: .08em; }
-.archContent h2 { margin: 0 0 24px; font-size: clamp(24px, 6vw, 62px); line-height: 1.45; white-space: nowrap; }
-.answerCaption { margin: 0 0 24px; max-width: 760px; color: #f0e8df; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 15px; line-height: 2.15; }
+.architecture { min-height: 700px; display: grid; grid-template-columns: 1.1fr .9fr; background: var(--beta-ink); color: #f4ede4; }
+.archImage { min-height: 650px; background: linear-gradient(rgba(35,28,24,.12),rgba(35,28,24,.28)), url('/images/living-room-signature.png') center / cover no-repeat; }
+.archContent { padding: 110px 7vw; display: flex; flex-direction: column; justify-content: center; }
+.archContent .sectionNumber { margin-bottom: 25px; color: #f4ede4; }
+.archContent .overlineDark { margin-bottom: 32px; color: #bba794; font-size: 13px; line-height: 2.1; letter-spacing: .08em; }
+.archContent h2 { margin: 0 0 35px; font-size: clamp(32px, 2.9vw, 42px); line-height: 1.5; letter-spacing: -.04em; }
+.archHeading span { display: block; white-space: nowrap; }
+.answerCaption { margin: 0; color: #cbbfb4; font-size: 14px; line-height: 2.1; }
 .renovationDetail { padding: 130px 8vw 145px; background: var(--beta-paper); }
 .renovationInner { max-width: 1220px; margin: 0 auto; }
 .renovationInner > .sectionNumber { margin-bottom: 62px; }
@@ -260,9 +261,9 @@
   .feelingNarrative { margin-top: 42px; padding-top: 0; }
   .feelingNarrative p span { display: inline; white-space: normal; }
   .senseGrid { grid-template-columns: 1fr 1fr; }
-  .architecture { min-height: 820px; }
-  .archImage { min-height: 0; }
-  .archContent { width: min(620px, 74vw); margin: 0 7vw 0 auto; padding: 100px 0 80px; }
+  .architecture { min-height: 0; grid-template-columns: 1fr; }
+  .archImage { min-height: 520px; }
+  .archContent { padding: 100px 7vw; }
   .renovationDetail { padding: 105px 7vw 115px; }
   .renovationGrid { grid-template-columns: 1fr; gap: 42px; }
   .renovationBody { padding-top: 0; }
@@ -345,10 +346,9 @@
   .faq h2 { font-size: 31px; }
   .pullQuote { margin-top: 58px; padding: 32px 20px; font-size: 24px; }
   .fixedFourLines span { display: inline; white-space: normal; }
-  .architecture { min-height: 760px; align-items: flex-end; }
-  .archImage { min-height: 0; background-image: linear-gradient(90deg, rgba(28,22,18,.68), rgba(28,22,18,.34)), url('/images/living-room-signature.png'); background-position: 45% center; }
-  .archContent { width: auto; margin: 0 24px; padding: 110px 0 70px; }
-  .archContent h2 { font-size: 24px; }
+  .archImage { min-height: 420px; background-position: center; }
+  .archContent { padding: 80px 25px; }
+  .archContent h2 { font-size: 34px; }
   .renovationDetail { padding: 90px 25px; }
   .renovationInner > .sectionNumber { margin-bottom: 48px; }
   .renovationHeading h2 { font-size: 34px; }
