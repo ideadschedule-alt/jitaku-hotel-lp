@@ -225,7 +225,7 @@ export default function BetaPage() {
       </section>
 
       <section className={styles.message}>
-        <div className={styles.messageImage} role="img" aria-label="素材と照明を確認しながら進める空間づくり" />
+        <div className={styles.messageImage} role="img" aria-label="落ち着いた間接照明に包まれたモダンラグジュアリーホテルの寝室" />
         <div className={styles.messageCopy}>
           <p className={styles.overline}>PROJECT MESSAGE</p>
           <h2>工事が終わった瞬間を、<br />ゴールにしたくない。</h2>

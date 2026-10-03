@@ -232,7 +232,7 @@
 .faqList details p { display: block; margin: 0; padding: 0 40px 28px 61px; color: #5c554e; font-size: 13px; line-height: 2; }
 
 .message { min-height: 700px; display: grid; grid-template-columns: 1.1fr .9fr; background: var(--beta-ink); color: #f4ede4; }
-.messageImage { min-height: 650px; background: linear-gradient(rgba(35,28,24,.18),rgba(35,28,24,.35)), url('/images/bedroom-detail.jpg') center / cover no-repeat; }
+.messageImage { min-height: 650px; background: linear-gradient(rgba(35,28,24,.12),rgba(35,28,24,.28)), url('/images/modern-luxury-bedroom.png') center / cover no-repeat; }
 .messageCopy { padding: 110px 7vw; display: flex; flex-direction: column; justify-content: center; }
 .messageCopy h2 { margin: 0 0 35px; font-size: clamp(36px, 4vw, 58px); line-height: 1.5; }
 .messageCopy > p:not(.overline) { margin: 0 0 22px; color: #cbbfb4; font-size: 14px; line-height: 2.1; }
